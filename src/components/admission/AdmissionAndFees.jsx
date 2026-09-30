@@ -89,7 +89,7 @@ export const AdmissionAndFees = () => {
             flexShrink: 0,
             whiteSpace: "nowrap",
           }}
-          href="https://apply.vedam.org/"
+          href="https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=admission_fees&utm_campaign=vsat_early_registration"
           target="_blank"
         >
           <Typography

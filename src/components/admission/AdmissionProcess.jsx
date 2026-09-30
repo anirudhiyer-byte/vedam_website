@@ -305,7 +305,7 @@ export const AdmissionProcess = ({ rightSideSteps }) => {
                       backgroundColor: "rgba(251, 127, 5, 0.8)",
                     },
                   }}
-                  href="https://apply.vedam.org/"
+                  href="https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=admission_process&utm_campaign=vsat_early_registration"
                   target="_blank"
                 >
                   <Typography
