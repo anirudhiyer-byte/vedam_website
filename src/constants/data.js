@@ -271,7 +271,7 @@ export const navLinks = [
   { label: "Life @ Vedam", path: "/life" },
   { label: "FAQs", path: "/faqs" },
   // { label: "About Us", path: "/about" },
-  { label: "Sign Up", path: "https://apply.vedam.org/" }, //Don't reorder register
+  { label: "Sign Up", path: "https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=nav_bar&utm_campaign=vsat_early_registration" }, //Don't reorder register
   // { label: "Login", path: "https://apply.vedam.org/" }, //Don't reorder login
 ];
 
