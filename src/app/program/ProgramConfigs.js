@@ -31,7 +31,7 @@ export const gurugramConfig = {
         partnerLogoAlt: "Sushant University logo",
         title: "UG Program in Computer Science & Artificial Intelligence",
         subtitle: "Bachelor of Technology Degree by Sushant University, Gurugram",
-        applyUrl: "https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=program_hero_gurugram&utm_campaign=vsat_early_registration",
+        applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_gurugram&utm_campaign=vsat_early_registration",
         brochureUrl: "https://drive.google.com/file/d/1WzTusTfoSeYszGtlWtgRdNEZ9ta9EZpJ/view?usp=drive_link",
         accreditationPill: [
             { src: "/img/program/ugc-logo.svg", alt: "UGC", label: "UGC Recognised", width: { xs: "16px", md: "24px" } },
@@ -328,7 +328,7 @@ export const puneConfig = {
         partnerLogoAlt: "ADYPU logo",
         title: "UG Program in Computer Science & Artificial Intelligence",
         subtitle: "Bachelor of Technology Degree by ADYPU, Pune",
-        applyUrl: "https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=program_hero_pune&utm_campaign=vsat_early_registration",
+        applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_pune&utm_campaign=vsat_early_registration",
         brochureUrl: "https://drive.google.com/file/d/1j04UERHtvzVG0i9r0A8EY5s0dnAT_DT-/view?usp=drive_link",
         accreditationPill: [
             { src: "/img/program/ugc-logo.svg", alt: "UGC", label: "UGC Recognised", width: { xs: "16px", md: "24px" } },

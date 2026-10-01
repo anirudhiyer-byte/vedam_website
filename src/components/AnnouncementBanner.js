@@ -2,7 +2,7 @@
 import { Box, Typography, Stack, Button } from "@mui/material";
 
 const REGISTER_INTEREST_URL =
-  "https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=sticky_header&utm_campaign=vsat_early_registration";
+  "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=sticky_header&utm_campaign=vsat_early_registration";
 
 export default function AnnouncementBanner() {
   return (

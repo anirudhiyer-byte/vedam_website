@@ -224,7 +224,7 @@ export const VideoWithText = ({ title, subtitle, isImg, videoUrl, imageUrl, imag
                 boxShadow: "0 4px 20px rgba(255, 120, 41, 0.3)",
               },
             }}
-            href="https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=home_video&utm_campaign=vsat_early_registration"
+            href="https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=home_video&utm_campaign=vsat_early_registration"
             target="_blank"
           >
             Apply Now

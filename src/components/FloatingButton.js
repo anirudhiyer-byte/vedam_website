@@ -107,7 +107,7 @@ const FloatingButton = () => {
       >
         <Button
           component="a"
-          href="https://one.vedam.org/vsat?utm_source=vedam_website&utm_medium=floating_button&utm_campaign=vsat_early_registration"
+          href="https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=floating_button&utm_campaign=vsat_early_registration"
           target="_blank"
           rel="noopener noreferrer"
           endIcon={<OpenInNewIcon sx={{ color: "white", transform: "scale(0.9)" }} />}
