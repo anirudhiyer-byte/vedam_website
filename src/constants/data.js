@@ -894,6 +894,24 @@ export const homeScreenData = {
 
     data: [
       {
+        id: 15,
+        image: "/img/inTheNews/lokmat.webp",
+        name: "Lokmat Times",
+        sourceName: "Lokmat Times",
+        alt: "Vedam at Lokmat Times",
+        objectPosition: "top",
+        link: "https://www.lokmattimes.com/education/vedam-school-of-technology-welcomes-the-next-generation-of-tech-builders-with-its-2026-30-batch-at-adypu-pune-a475/",
+      },
+      {
+        id: 16,
+        image: "/img/inTheNews/FinExp.webp",
+        name: "Financial Express",
+        sourceName: "Financial Express",
+        alt: "Vedam at Financial Express",
+        objectPosition: "top",
+        link: "https://www.financialexpress.com/business/news/vedam-school-of-technology-introduces-new-batch-to-ai/4348118/",
+      },
+      {
         id: 12,
         image: "/img/inTheNews/12.webp",
         name: "Business Standard",
