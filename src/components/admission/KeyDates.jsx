@@ -2,9 +2,7 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import { admissionScreenData } from "@/constants/data";
 
-export const KeyDates = ({ secondRowValues }) => {
-  const secondRow =
-    secondRowValues ?? admissionScreenData.keyDates.secondArray;
+export const KeyDates = () => {
   return (
     <Box>
       {/* Header Box */}
@@ -70,7 +68,6 @@ export const KeyDates = ({ secondRowValues }) => {
         {/* Second Row - Content */}
         <Box
           sx={{
-            display: "flex",
             padding: "20px",
             border: "1px solid #FB7F05",
             borderTop: "none",
@@ -78,28 +75,17 @@ export const KeyDates = ({ secondRowValues }) => {
             borderBottomRightRadius: "16px",
           }}
         >
-          {secondRow.map((item, index) => (
-            <Box
-              key={`desktop-content-${index}`}
-              sx={{
-                flex: 1,
-                textAlign: "center",
-                paddingLeft: index !== 0 ? "12px" : 0,
-                paddingRight: "12px",
-              }}
-            >
-              <Typography
-                sx={{
-                  fontWeight: "200",
-                  lineHeight: "150%",
-                  color: "#1E1E1E",
-                  fontFamily: "Inter",
-                }}
-              >
-                {item}
-              </Typography>
-            </Box>
-          ))}
+          <Typography
+            sx={{
+              fontWeight: "400",
+              lineHeight: "150%",
+              color: "#1E1E1E",
+              fontFamily: "Inter",
+              textAlign: "center",
+            }}
+          >
+            {admissionScreenData.keyDates.closedNote}
+          </Typography>
         </Box>
       </Box>
 
@@ -119,53 +105,39 @@ export const KeyDates = ({ secondRowValues }) => {
             <Box
               key={`mobile-row-${index}`}
               sx={{
-                display: "flex",
-                // borderBottom: index === 4 ? "none" : "1px solid #FB7F05",
+                padding: "16px",
+                backgroundColor: "rgba(251, 127, 5, 0.3)",
+                borderBottom: "1px solid #FB7F05",
               }}
             >
-              {/* Header Cell */}
-              <Box
+              <Typography
                 sx={{
-                  flex: 1,
-                  padding: "16px",
-                  backgroundColor: "rgba(251, 127, 5, 0.3)",
-                  // borderRight: "1px solid #FB7F05",
-                }}
-              >
-                <Typography
-                  sx={{
-                    fontWeight: "400",
-                    lineHeight: "150%",
-                    color: "#1E1E1E",
-                    fontFamily: "Inter",
-                    textAlign: "center",
-                  }}
-                >
-                  {header}
-                </Typography>
-              </Box>
-
-              {/* Value Cell */}
-              <Box
-                sx={{
-                  flex: 1,
-                  padding: "16px",
+                  fontWeight: "400",
+                  lineHeight: "150%",
+                  color: "#1E1E1E",
+                  fontFamily: "Inter",
                   textAlign: "center",
                 }}
               >
-                <Typography
-                  sx={{
-                    fontWeight: "200",
-                    lineHeight: "150%",
-                    color: "#1E1E1E",
-                    fontFamily: "Inter",
-                  }}
-                >
-                  {secondRow[index]}
-                </Typography>
-              </Box>
+                {header}
+              </Typography>
             </Box>
           ))}
+
+          {/* Closed notice — replaces the individual date values */}
+          <Box sx={{ padding: "16px" }}>
+            <Typography
+              sx={{
+                fontWeight: "400",
+                lineHeight: "150%",
+                color: "#1E1E1E",
+                fontFamily: "Inter",
+                textAlign: "center",
+              }}
+            >
+              {admissionScreenData.keyDates.closedNote}
+            </Typography>
+          </Box>
         </Box>
       </Box>
     </Box>

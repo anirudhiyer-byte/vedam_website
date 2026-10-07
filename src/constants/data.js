@@ -1043,7 +1043,7 @@ export const admissionScreenData = {
     subtitle: "Admission & Fees",
     description:
       "We look forward to welcoming students who value a talented peer group. Only the top 5% will make it to the Vedam batch. The group study and peer-to-peer learning increase greatly in such a batch.",
-    applyNow: "Apply Now for the 2026 Intake",
+    applyNow: "Register your interest for VSAT 2027 Batch",
     eligibilityStrong: "Eligibility Criteria: ",
     eligibilityText:
       "Candidates must have passed Class 12th with PCM in 2025 or 2026 with ≥50% aggregate and ≥50% in each of Physics, Chemistry, and Mathematics.",
@@ -1063,6 +1063,7 @@ export const admissionScreenData = {
       "Within 2 days of the exam",
       "Within 3 days of the exam, after counselling if selected",
     ],
+    closedNote: "Applications for 2026 are now closed!",
   },
   admissionProcess: {
     subtitle: "Admission Process 2026",
