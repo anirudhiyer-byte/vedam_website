@@ -1046,7 +1046,7 @@ export const admissionScreenData = {
     applyNow: "Register your interest for VSAT 2027 Batch",
     eligibilityStrong: "Eligibility Criteria: ",
     eligibilityText:
-      "Candidates must have passed Class 12th with PCM in 2025 or 2026 with ≥50% aggregate and ≥50% in each of Physics, Chemistry, and Mathematics.",
+      "Candidates must have passed Class 12th with PCM in 2026 or 2027 with ≥50% aggregate and ≥50% in each of Physics, Chemistry, and Mathematics.",
   },
   keyDates: {
     subtitle: "Key Dates",
