@@ -144,6 +144,9 @@ Disallow: /thankyou
 Disallow: /404
 Disallow: /500
 
+# Blog is unlisted for now (also marked noindex); named search bots still crawl to see noindex
+Disallow: /blogs
+
 # Block tracking-parameter URLs (avoids duplicate-content indexing)
 Disallow: /*?gclid=
 Disallow: /*?fbclid=

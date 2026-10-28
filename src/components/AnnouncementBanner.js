@@ -1,10 +1,15 @@
 "use client";
 import { Box, Typography, Stack, Button } from "@mui/material";
+import { usePathname } from "next/navigation";
 
 const REGISTER_INTEREST_URL =
   "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=sticky_header&utm_campaign=vsat_early_registration";
 
 export default function AnnouncementBanner() {
+  const pathname = usePathname();
+  // Hidden on the blog section, which uses its own minimal header.
+  if (pathname?.startsWith("/blogs")) return null;
+
   return (
     <Box
       sx={{

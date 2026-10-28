@@ -100,6 +100,9 @@ export default function Navbar() {
     WebkitTextFillColor: "transparent",
   };
 
+  // Blog section uses its own minimal glassy header (see BlogHeader).
+  if (pathname?.startsWith("/blogs")) return null;
+
   return (
     <Container
       maxWidth={false}

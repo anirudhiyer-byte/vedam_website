@@ -3,6 +3,7 @@ import { Box, Button } from '@mui/material';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { keyframes } from '@emotion/react';
+import { usePathname } from 'next/navigation';
 import { TELEGRAM_COMMUNITY_URL } from '@/constants/links';
 
 const pulse = keyframes`
@@ -12,6 +13,10 @@ const pulse = keyframes`
 `;
 
 const FloatingButton = () => {
+  const pathname = usePathname();
+  // Hidden on the blog section.
+  if (pathname?.startsWith("/blogs")) return null;
+
   return (
     <>
       <Box

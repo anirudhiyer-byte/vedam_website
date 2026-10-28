@@ -16,6 +16,7 @@ const FOOTER_LINKS = [
     title: "Quick Links",
     links: [
       { label: "About Us", href: "/about" },
+      { label: "Blogs", href: "/blogs" },
       { label: "Terms of use", href: "/terms-of-use" },
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Refund Policy", href: "/refund-policy" },
