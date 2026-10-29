@@ -113,11 +113,11 @@ export default function Blogs() {
         }}
       >
         <Box sx={{ position: "absolute", right: -80, top: -40, width: 320, height: 320, borderRadius: "50%", bgcolor: "rgba(255,255,255,0.12)", pointerEvents: "none" }} />
-        <Typography component="h1" sx={{ fontSize: { xs: 30, md: 44 }, fontWeight: 800, letterSpacing: "-1px", mb: 1.5, maxWidth: 720, lineHeight: 1.12 }}>
-          Guides, answers and student stories from inside Vedam.
+        <Typography component="h1" sx={{ fontSize: { xs: 32, md: 48 }, fontWeight: 800, letterSpacing: "-1px", mb: 1.5, lineHeight: 1.1 }}>
+          The Vedam Blog
         </Typography>
-        <Typography sx={{ fontSize: { xs: 15, md: 17 }, opacity: 0.95, maxWidth: 580, mb: 3, lineHeight: 1.55 }}>
-          Clear, no-fluff writing on admissions, VSAT, the CS &amp; AI curriculum and campus life — straight from the people who run Vedam.
+        <Typography sx={{ fontSize: { xs: 15, md: 17 }, opacity: 0.95, maxWidth: 620, mb: 3, lineHeight: 1.55 }}>
+          Guides, ideas and real stories on college, coding, AI and careers in tech, for students who want to build.
         </Typography>
         <Box sx={{ display: "flex", bgcolor: "#fff", borderRadius: "12px", maxWidth: 460, p: 0.75, boxShadow: "0 10px 30px rgba(20,12,40,0.18)" }}>
           <InputBase

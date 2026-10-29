@@ -41,11 +41,11 @@ const FAQS = [
   },
   {
     q: "Do I need coding experience before joining?",
-    a: "No. The program starts from the foundations of programming in semester 1, so you can begin even if you have never written code. If you want a head start, CodeSprint — Vedam's free 8-hour beginner course — is a good place to begin.",
+    a: "No. Admission is through VSAT, which tests maths, logical reasoning and learnability, not coding. If you want a head start, CodeSprint is Vedam's free 8-hour beginner course.",
   },
   {
-    q: "What is Vedam's CS & AI program about?",
-    a: "It is a 4-year B.Tech in Computer Science & AI where you build real products from the first semester — more than 50 projects, deep AI and machine learning, an elective track and a mandatory 6-month paid internship — with the degree awarded by a UGC-approved partner university.",
+    q: "What is Vedam's CS & AI programme about?",
+    a: "It covers everything a computer science course should: programming, data structures and algorithms, full-stack development and system design. On top of that, it goes deep into AI, from machine learning to deep learning and NLP.",
   },
 ];
 
