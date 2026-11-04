@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
 export const revalidate = 3600;
 
 export const metadata = {
-  title: 'New Age College for BTech in CS & AI  Admission | Vedam',
+  title: { absolute: 'Admissions — Register for VSAT 2027 | Vedam School of Technology' },
   description: 'Apply for BTech in CS & AI at Vedam. New age private CS college with simple admission process, scholarships up to 100%, and direct admission.',
   keywords: [
     'Vedam School of Technology admissions',
@@ -28,7 +28,7 @@ export const metadata = {
     'VST Gurugram admission',
   ],
   openGraph: {
-    title: 'New Age College for BTech in CS & AI  Admission | Vedam',
+    title: 'Admissions — Register for VSAT 2027 | Vedam School of Technology',
     description: 'Apply for BTech in CS & AI at Vedam. New age private CS college with simple admission process, scholarships up to 100%, and direct admission.',
     url: 'https://www.vedam.org/admission',
     siteName: 'Vedam School of Technology',

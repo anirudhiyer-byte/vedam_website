@@ -15,7 +15,7 @@ const organizationSchema = {
 };
 
 export const metadata = {
-  title: 'New Age College for B.Tech Degree in CS & AI | Vedam school of Technology',
+  title: 'Vedam School of Technology | New-Age CS & AI, B.Tech from Partner Universities',
   description: "Earn a B.Tech degree in CS & AI by UGC-approved universities through Vedam's 4-year New Age program in CS and AI.",
   alternates: {
     canonical: '/',
@@ -33,7 +33,7 @@ export const metadata = {
     'AI and machine learning BTech'
   ],
   openGraph: {
-    title: 'New Age College for B.Tech Degree in CS & AI | Vedam school of Technology',
+    title: 'Vedam School of Technology | New-Age CS & AI, B.Tech from Partner Universities',
     description: "Earn a B.Tech degree in CS & AI by UGC-approved universities through Vedam's 4-year New Age program in CS and AI.",
     url: 'https://www.vedam.org/',
     siteName: 'Vedam School of Technology',

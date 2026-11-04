@@ -49,7 +49,7 @@ const puneProgramSchema = {
 };
 
 export const metadata = {
-    title: "BTech in CS & AI in Pune | New Age College | Vedam",
+    title: { absolute: "B.Tech CS & AI at Ajeenkya DY Patil University, Pune | Vedam School of Technology" },
     description:
         "Apply for a 4-year BTech in Computer Science & AI in Pune. New age private CS college with industry curriculum, top placements, and startup culture. 2026 batch.",
     keywords: [
@@ -70,7 +70,7 @@ export const metadata = {
         "Ajeenkya DY Patil University Vedam",
     ],
     openGraph: {
-        title: "BTech in CS & AI in Pune | New Age College | Vedam",
+        title: "B.Tech CS & AI at Ajeenkya DY Patil University, Pune | Vedam School of Technology",
         description:
             "Apply for a 4-year BTech in Computer Science & AI in Pune. New age private CS college with industry curriculum, top placements, and startup culture. 2026 batch.",
         url: "https://www.vedam.org/program/vst-adypu-pune",

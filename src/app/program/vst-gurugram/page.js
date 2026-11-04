@@ -49,7 +49,7 @@ const gurugramProgramSchema = {
 };
 
 export const metadata = {
-    title: "BTech in CS & AI Admission in Gurugram | New Age College | Vedam",
+    title: { absolute: "B.Tech CS & AI at Sushant University, Gurugram | Vedam School of Technology" },
     description:
         "Apply for a 4-year BTech in Computer Science & AI in Gurugram, Delhi NCR. New age private CS college with industry curriculum and top placements.",
     keywords: [
@@ -72,7 +72,7 @@ export const metadata = {
         "AI engineering college Delhi NCR",
     ],
     openGraph: {
-        title: "BTech in CS & AI Admission in Gurugram | New Age College | Vedam",
+        title: "B.Tech CS & AI at Sushant University, Gurugram | Vedam School of Technology",
         description:
             "Apply for a 4-year BTech in Computer Science & AI in Gurugram, Delhi NCR. New age private CS college with industry curriculum and top placements.",
         url: "https://www.vedam.org/program/vst-gurugram",
