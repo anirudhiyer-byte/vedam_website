@@ -35,7 +35,6 @@ export const gurugramConfig = {
         brochureUrl: "https://drive.google.com/file/d/1WzTusTfoSeYszGtlWtgRdNEZ9ta9EZpJ/view?usp=drive_link",
         accreditationPill: [
             { src: "/img/program/ugc-logo.svg", alt: "UGC", label: "UGC Recognised", width: { xs: "16px", md: "24px" } },
-            { src: "/img/program/nirf-logo.webp", alt: "NIRF", label: "NIRF Ranked" },
             { src: "/img/program/naac-logo.webp", alt: "NAAC", label: "NAAC Accredited" },
         ],
     },
@@ -54,12 +53,10 @@ export const gurugramConfig = {
         description: "Gurugram is where India's corporate world lives. From Fortune 500 headquarters to global tech giants, the city puts you at the centre of India's biggest economy.",
         descriptionFontWeight: { xs: 400, md: 400 },
         statsLeft: [
-            { num: "10,000+", label: "Registered Startups across NCR" },
-            { num: "#1", label: "Tech hub of North India" },
+            { num: "10,000+", label: "startups powering the Delhi-NCR tech economy" },
         ],
         statsRight: [
-            { num: "Top 5", label: "Leading AI hub in Asia" },
-            { num: "600+", label: "MNC’s & Fortune 500’s" },
+            { num: "600+", label: "MNCs & Fortune 500s with offices in NCR" },
         ],
         img1: "/img/program/gurugram-1.webp",
         img2: "/img/program/gurugram-2.webp",
@@ -111,7 +108,6 @@ export const gurugramConfig = {
         description: "Your B.Tech degree is awarded by Sushant University, Gurugram — a UGC-recognised university.",
         logos: [
             { src: "/img/program/naac-logo.webp", alt: "NAAC", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
-            { src: "/img/program/nirf-logo.webp", alt: "NIRF", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
             { src: "/img/program/haryana-emblem.svg", alt: "Haryana", height: { xs: "40px", md: "80px" }, width: { xs: "40px", md: "80px" } },
             { src: "/img/program/aiu.webp", alt: "AIU", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
             { src: "/img/program/ugc.webp", alt: "UGC", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
@@ -332,7 +328,7 @@ export const puneConfig = {
         brochureUrl: "https://drive.google.com/file/d/1j04UERHtvzVG0i9r0A8EY5s0dnAT_DT-/view?usp=drive_link",
         accreditationPill: [
             { src: "/img/program/ugc-logo.svg", alt: "UGC", label: "UGC Recognised", width: { xs: "16px", md: "24px" } },
-            { src: "/img/program/nirf-logo.webp", alt: "NIRF", label: "NIRF Ranked" },
+            { src: "/img/program/nirf-logo.webp", alt: "NIRF", label: "NIRF 2025 · Engineering" },
             { src: "/img/program/naac-logo.webp", alt: "NAAC", label: "NAAC Accredited" },
         ],
     },
@@ -351,12 +347,10 @@ export const puneConfig = {
         description: "Pune is where engineering talent gets built. Home to one of India's largest concentrations of manufacturing, IT and deep tech companies - the city gives engineering students something most campuses can't: proximity to real industry.",
         descriptionFontWeight: { xs: 400, md: 400 },
         statsLeft: [
-            { num: "50000+", label: "MNCs & Enterprises" },
-            { num: "#2", label: "Largest IT hub in Maharashtra" },
+            { num: "50,000+", label: "MNCs & enterprises across Pune's industry belt" },
         ],
         statsRight: [
-            { num: "3200+", label: "Registered Startups" },
-            { num: "Oxford of East ", label: "India's Education Capital" },
+            { num: "3,200+", label: "startups in Pune's growing founder community" },
         ],
         img1: "/img/program/whypune1.webp",
         img2: "/img/program/whypune2.webp",
@@ -386,7 +380,7 @@ export const puneConfig = {
     },
 
     accreditations: {
-        description: "Your B.Tech degree is awarded by Ajeenkya DY Patil University, Pune — a UGC-recognised university.",
+        description: "Your B.Tech degree is awarded by Ajeenkya DY Patil University, Pune — a UGC-recognised university. The university is ranked in NIRF 2025 (Engineering), rank band 201–300 (Ministry of Education).",
         logos: [
             { src: "/img/program/naac-logo.webp", alt: "NAAC", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
             { src: "/img/program/nirf-logo.webp", alt: "NIRF", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
