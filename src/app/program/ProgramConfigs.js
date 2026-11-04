@@ -45,7 +45,7 @@ export const gurugramConfig = {
             { title: "Degree Awarded By", body: "Sushant University — Gurugram, Delhi NCR", highlight: true },
             { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
-        footnote: "*Admissions open for 2026 intake. Only top 5% applicants are selected.",
+        footnote: "*Admissions for the 2026 intake are closed. Register your interest for the 2027 intake. Only top 5% applicants are selected.",
     },
 
     citySection: {
@@ -339,7 +339,7 @@ export const puneConfig = {
             { title: "Degree Awarded By", body: "Ajeenkya DY Patil University - DY Patil Knowledge City, Pune", highlight: true },
             { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
-        footnote: "*Admissions open for 2026 intake. Only top 5% applicants are selected.",
+        footnote: "*Admissions for the 2026 intake are closed. Register your interest for the 2027 intake. Only top 5% applicants are selected.",
     },
 
     citySection: {

@@ -1036,8 +1036,8 @@ export const admissionScreenData = {
   hero: {
     background_video:
       "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
-    title: "Top 5% will make it to the Vedam batch",
-    subtitle: "Apply Now for the 2026 Intake",
+    title: "Vedam Admissions 2027",
+    subtitle: "Admissions for the 2026 intake are closed — register your interest for the 2027 batch.",
   },
   admissionAndFees: {
     subtitle: "Admission & Fees",
