@@ -30,7 +30,7 @@ export const gurugramConfig = {
         partnerLogo: "/img/program/sushant.webp",
         partnerLogoAlt: "Sushant University logo",
         title: "UG Program in Computer Science & Artificial Intelligence",
-        subtitle: "Bachelor of Technology Degree by Sushant University, Gurugram",
+        subtitle: "Programme offered and degree awarded by Sushant University, Gurugram. On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
         applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_gurugram&utm_campaign=vsat_early_registration",
         brochureUrl: "https://drive.google.com/file/d/1WzTusTfoSeYszGtlWtgRdNEZ9ta9EZpJ/view?usp=drive_link",
         accreditationPill: [
@@ -43,7 +43,7 @@ export const gurugramConfig = {
     statsBar: {
         tiles: [
             { title: "4 Years", body: "B.Tech in CS with specialisation in AI by Sushant University", highlight: false },
-            { title: "Partner Campus", body: "Sushant University — Gurugram, Delhi NCR", highlight: true },
+            { title: "Degree Awarded By", body: "Sushant University — Gurugram, Delhi NCR", highlight: true },
             { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
         footnote: "*Admissions open for 2026 intake. Only top 5% applicants are selected.",
@@ -327,7 +327,7 @@ export const puneConfig = {
         partnerLogo: "/img/program/adypu.webp",
         partnerLogoAlt: "ADYPU logo",
         title: "UG Program in Computer Science & Artificial Intelligence",
-        subtitle: "Bachelor of Technology degree awarded by Ajeenkya DY Patil University, Pune",
+        subtitle: "Programme offered and degree awarded by Ajeenkya DY Patil University, Pune. On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
         applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_pune&utm_campaign=vsat_early_registration",
         brochureUrl: "https://drive.google.com/file/d/1j04UERHtvzVG0i9r0A8EY5s0dnAT_DT-/view?usp=drive_link",
         accreditationPill: [
@@ -340,7 +340,7 @@ export const puneConfig = {
     statsBar: {
         tiles: [
             { title: "4 Years", body: "B.Tech in CS with Specialisation in AI by Ajeenkya DY Patil University", highlight: false },
-            { title: "Partner Campus", body: "Ajeenkya DY Patil University - DY Patil Knowledge City, Pune", highlight: true },
+            { title: "Degree Awarded By", body: "Ajeenkya DY Patil University - DY Patil Knowledge City, Pune", highlight: true },
             { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
         footnote: "*Admissions open for 2026 intake. Only top 5% applicants are selected.",

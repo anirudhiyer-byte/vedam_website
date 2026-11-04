@@ -396,7 +396,7 @@ export const homeScreenData = {
   },
   inCollaborationWith: {
     title: "",
-    subtitle: "Our Partner Campuses",
+    subtitle: "Where You'll Study",
     leftSideImage: "/img/college.webp",
     rightSideText1: "Ajeenkya DY Patil University",
     data: [
