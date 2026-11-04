@@ -209,13 +209,19 @@ export default function Footer() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: { xs: "column", md: "row" },
-            justifyContent: "space-between",
-            alignItems: "center",
+            flexDirection: "column",
+            gap: 1.25,
             borderTop: "1px solid rgba(0, 0, 0, 0.27)",
             paddingTop: 2,
           }}
         >
+          <Typography variant="body2" sx={{
+            fontSize: { xs: 11, sm: 13 },
+            lineHeight: 1.6,
+            color: "rgba(255, 255, 255, 0.85)",
+          }}>
+            The four-year B.Tech programmes are offered and the degrees awarded by Ajeenkya DY Patil University, Pune, and Sushant University, Gurugram (both UGC-recognised). Vedam School of Technology provides the on-campus learning experience and career support.
+          </Typography>
           <Typography variant="body2" sx={{
             fontSize: { xs: 10, sm: 14 },
             paddingBottom: 1,

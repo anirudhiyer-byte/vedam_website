@@ -1580,7 +1580,7 @@ export const aboutSourceCodeData = {
   whyBody:
     "Because traditional colleges focus on theory, not real-world skills. We have seen brilliant, hardworking students trapped in this outdated system — graduating with just a degree, lacking hands-on coding expertise, and struggling in endless placement cycles.",
   solutionIntro:
-    "This is why we built Vedam School of Technology. Vedam is a 4-year, on-campus Computer Science & AI program designed to create the next generation of global tech leaders. Here, students don't just study tech — they build it from Day 1.",
+    "This is why we built Vedam School of Technology. The four-year, on-campus B.Tech programmes in CS & AI are offered and the degrees awarded by Ajeenkya DY Patil University, Pune, and Sushant University, Gurugram; Vedam brings the new-age, build-from-day-one learning experience. Here, students don't just study tech — they build it from Day 1.",
   highlights: [
     "Real-world skills",
     "No outdated systems",
