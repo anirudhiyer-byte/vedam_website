@@ -18,9 +18,9 @@ export const placementConfig = {
 
     // ── PLACEMENT EXPERTISE ───────────────────────────────────────────────────
     placementExpertise: {
-        heading: "Proven Placement Expertise",
+        heading: "The track record behind Vedam",
         description:
-            "Vedam is built on 7+ years of career-focused education, with a placement infrastructure proven at scale. The ecosystem behind Vedam is tested, refined, and proven.",
+            "The numbers below are the track record of Vedam's parent organisation, Elevate Education — results from its previous cohorts, audited by B2K Analytics. They are not Vedam's own record; Vedam's first undergraduate batch graduates in 2029.",
         stats: [
             { num: "7+ Years", label: "Experience in career-focused education" },
             { num: "20,000+", label: "Student outcomes delivered" },
@@ -52,13 +52,13 @@ export const placementConfig = {
 
     // ── TECH EXPERTISE ────────────────────────────────────────────────────────
     techExpertise: {
-        heading: "Proven Tech Expertise",
+        heading: "Our instructors' track record before Vedam",
         description:
-            "Vedam's learning is driven by MAANG engineers who have trained more than 5000 students to get into top tech companies like Google, Microsoft, and Amazon.",
+            "Before Vedam, our instructors trained 5,000+ students in their earlier teaching roles at other education companies, helping them into top tech companies like Google, Microsoft and Amazon. These are their prior results, separate from Vedam student outcomes.",
         stats: [
             { num: "5,000+", label: "Students mentored by our tech experts" },
             { num: "10+ MAANG", label: "Engineers mentoring at Vedam" },
-            { num: "Student Placed", label: "At Top Tech companies likes Google, Amazon, Atlassian and more" },
+            { num: "Student Placed", label: "from our instructors' earlier batches at companies like Google, Amazon & Atlassian — before Vedam" },
         ],
     },
 
