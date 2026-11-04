@@ -108,7 +108,7 @@ export const gurugramConfig = {
     },
 
     accreditations: {
-        description: "Your degree isn't just a certificate — it's a nationally recognised credential backed by India's top regulatory bodies, independent quality assessors, and international ranking frameworks.",
+        description: "Your B.Tech degree is awarded by Sushant University, Gurugram — a UGC-recognised university.",
         logos: [
             { src: "/img/program/naac-logo.webp", alt: "NAAC", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
             { src: "/img/program/nirf-logo.webp", alt: "NIRF", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
@@ -230,7 +230,7 @@ export const gurugramConfig = {
     },
 
     financing: {
-        description: "At Vedam School of Technology, we understand that flexibility and convenience in fee payments are important to our students and their families. To make this process easier and more accessible, we have partnered with recognized financial companies.",
+        description: "At Vedam School of Technology, we understand that flexibility and convenience in fee payments are important to our students and their families. To make this process easier and more accessible, we have partnered with financing providers to offer flexible fee-payment and education-loan options.",
         zeroEmi: {
             title: "Loan at Low Cost EMI",
             description: "You can pay your annual course fee in monthly installments with no interest, no processing fee, and no hidden charges. We've partnered trusted fintech company working with over 2,500 institutions, to offer this option",
@@ -386,7 +386,7 @@ export const puneConfig = {
     },
 
     accreditations: {
-        description: "Your degree isn't just a certificate — it's a nationally recognised credential backed by India's top regulatory bodies, independent quality assessors, and international ranking frameworks.",
+        description: "Your B.Tech degree is awarded by Ajeenkya DY Patil University, Pune — a UGC-recognised university.",
         logos: [
             { src: "/img/program/naac-logo.webp", alt: "NAAC", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
             { src: "/img/program/nirf-logo.webp", alt: "NIRF", height: { xs: "30px", md: "80px" }, width: { xs: "auto", md: "auto" } },
@@ -546,7 +546,7 @@ export const puneConfig = {
     },
 
     financing: {
-        description: "At Vedam School of Technology, we understand that flexibility and convenience in fee payments are important to our students and their families. To make this process easier and more accessible, we have partnered with recognized financial companies.",
+        description: "At Vedam School of Technology, we understand that flexibility and convenience in fee payments are important to our students and their families. To make this process easier and more accessible, we have partnered with financing providers to offer flexible fee-payment and education-loan options.",
         zeroEmi: {
             title: "Loan at Zero Cost EMI",
             headingComponent: "h3",
