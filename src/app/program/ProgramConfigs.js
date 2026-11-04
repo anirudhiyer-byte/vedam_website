@@ -327,7 +327,7 @@ export const puneConfig = {
         partnerLogo: "/img/program/adypu.webp",
         partnerLogoAlt: "ADYPU logo",
         title: "UG Program in Computer Science & Artificial Intelligence",
-        subtitle: "Bachelor of Technology Degree by ADYPU, Pune",
+        subtitle: "Bachelor of Technology degree awarded by Ajeenkya DY Patil University, Pune",
         applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_pune&utm_campaign=vsat_early_registration",
         brochureUrl: "https://drive.google.com/file/d/1j04UERHtvzVG0i9r0A8EY5s0dnAT_DT-/view?usp=drive_link",
         accreditationPill: [
