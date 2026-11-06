@@ -1520,13 +1520,13 @@ export const faqsScreenData = [
         id: 32,
         title: "What happens if I dont get Internship in 3rd and 4th Year?",
         description:
-          "At Vedam School of Technology, landing an internship is as easy as debugging your first Hello, World!—as long as you put in the effort. With 1000+ career partners, opportunities are plenty. But in the rare case you don’t get an internship, don’t panic—we won’t leave you hanging. Instead, you’ll work on a real-world tech project with industry mentors, gaining hands-on experience (and probably a few all-nighters). Either way, you’ll come out job-ready, and who knows—you might just build the next big thing.",
+          "Vedam supports you with internship preparation, application guidance, mentor reviews and interview practice. Whether you secure an internship depends on the employer’s requirements and your own performance, so an internship or stipend is not guaranteed. If you don’t land one, you won’t be left on your own — you’ll work on a real-world tech project with industry mentors to build hands-on experience.",
       },
       {
         id: 33,
         title: "What happens if I dont get a Job after 4 years at Vedam?",
         description:
-          "At Vedam School of Technology, we are committed to ensuring that every student secures strong career opportunities. With a network of 1000+ hiring partners, we provide extensive placement support, industry connections, and hands-on training to enhance employability. Our program includes rigorous technical and career development sessions, personalized mentorship, and direct access to job opportunities across various industries. Even after graduation, students benefit from a thriving alumni network and ongoing career guidance. In case of challenges, our dedicated placement team offers resume reviews, interview preparation, and strategic job search support to help every graduate find the right opportunity.",
+          "Vedam provides placement assistance — résumé reviews, interview preparation, mentorship and job-search guidance — along with industry connections built through our network of hiring partners. Employers make their own hiring decisions, so a job or salary is not guaranteed. Our placement team will keep working with you on the support available under your programme terms.",
       },
     ],
   },
