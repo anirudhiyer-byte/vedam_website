@@ -535,7 +535,7 @@ export const homeScreenData = {
         {
           id: 5,
           icon: "/img/vedamvs/right/first.webp",
-          text: "Non employable",
+          text: "Limited placement support",
         },
         {
           id: 6,
@@ -1575,7 +1575,7 @@ export const aboutSourceCodeData = {
   label: "About Us",
   title: "Our Source <Code>",
   problemStatement:
-    "India Produces 1.5 Mn+ Engineers Every Year, But only Top 1% secure high paying tech roles.",
+    "India produces over 1.5 million engineers every year, yet many struggle to land high-quality tech roles.",
   whyHeading: "Why?",
   whyBody:
     "Because traditional colleges focus on theory, not real-world skills. We have seen brilliant, hardworking students trapped in this outdated system — graduating with just a degree, lacking hands-on coding expertise, and struggling in endless placement cycles.",
