@@ -5,6 +5,7 @@ import { Box, Typography, IconButton } from "@mui/material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
+import { OutcomeDisclaimer } from "@/components/common/OutcomeDisclaimer";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Shared design tokens
@@ -647,6 +648,7 @@ export default function PlacementsPage({ config }) {
 
                 {/* ── Stat cards ── */}
                 <StatCards1 stats={placementExpertise.stats} />
+                <OutcomeDisclaimer />
 
                 {/* Pre-designed image */}
                 <Box
@@ -716,6 +718,7 @@ export default function PlacementsPage({ config }) {
 
                 {/* ── Stat cards ── */}
                 <StatCards stats={techExpertise.stats} />
+                <OutcomeDisclaimer />
             </Box>
 
             {/* ── 4. TESTIMONIALS ──────────────────────────────────────────── */}
@@ -890,6 +893,8 @@ export default function PlacementsPage({ config }) {
                         </Box>
                     ))}
                 </Box>
+
+                <OutcomeDisclaimer />
             </Box>
 
             {/* ── 6. INTERNSHIPS IN FIRST YEAR ─────────────────────────────── */}
@@ -970,6 +975,8 @@ export default function PlacementsPage({ config }) {
                         </Box>
                     ))}
                 </Box>
+
+                <OutcomeDisclaimer />
             </Box>
 
         </Box>

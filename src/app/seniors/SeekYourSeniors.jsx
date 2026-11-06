@@ -6,6 +6,7 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import PersonIcon from "@mui/icons-material/Person";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+import { OutcomeDisclaimer } from "@/components/common/OutcomeDisclaimer";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Data
@@ -792,6 +793,7 @@ export default function SeekYourSeniors() {
               </Box>
             ))}
           </Box>
+          <OutcomeDisclaimer sx={{ textAlign: "center" }} />
         </Box>
 
         {/* Desktop */}
@@ -833,6 +835,7 @@ export default function SeekYourSeniors() {
               </Box>
             ))}
           </Box>
+          <OutcomeDisclaimer sx={{ textAlign: "center" }} />
         </Box>
       </Box>
 

@@ -392,7 +392,7 @@ export const homeScreenData = {
       },
     ],
     bottomText:
-      "These companies have recruited from the earlier cohorts of Vedam's parent organisation, Elevate Education, and reflect the founding team's prior track record — not Vedam's own placements. Vedam's first undergraduate batch graduates in 2029.",
+      "These companies have recruited from the earlier cohorts of Vedam's parent organisation, Elevate Education, and reflect the founding team's prior track record — not Vedam's own placements. Vedam's first undergraduate batch graduates in 2029. Past record is no guarantee of future prospects.",
   },
   inCollaborationWith: {
     title: "",
