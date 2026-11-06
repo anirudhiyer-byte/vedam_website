@@ -228,16 +228,16 @@ export const gurugramConfig = {
     financing: {
         description: "At Vedam School of Technology, we understand that flexibility and convenience in fee payments are important to our students and their families. To make this process easier and more accessible, we have partnered with financing providers to offer flexible fee-payment and education-loan options.",
         zeroEmi: {
-            title: "Loan at Low Cost EMI",
-            description: "You can pay your annual course fee in monthly installments with no interest, no processing fee, and no hidden charges. We've partnered trusted fintech company working with over 2,500 institutions, to offer this option",
+            title: "Monthly-Instalment EMI (Propelld & Jodo)",
+            description: "Pay your course fee in monthly instalments through our financing partners, Propelld and Jodo. Vedam connects you with the partner; the loan, interest, processing fees and repayment terms are set and handled by the lender (see the table below). Loan approval is at the lender's sole discretion and subject to its credit policy.",
         },
         bankLoan: {
             title: "Education Loan from a Bank",
             description: "You can also access education loans through our trusted banking partners, making it easier for you to finance your education with flexible repayment options and competitive interest rates.",
         },
         loanPartners: [
-            { id: "propelled", label: "Propelled" },
-            { id: "jodo", label: "Jodo Cred Plan" },
+            { id: "propelled", label: "Propelld" },
+            { id: "jodo", label: "Jodo" },
         ],
         loanData: {
             propelled: {
@@ -542,17 +542,17 @@ export const puneConfig = {
     financing: {
         description: "At Vedam School of Technology, we understand that flexibility and convenience in fee payments are important to our students and their families. To make this process easier and more accessible, we have partnered with financing providers to offer flexible fee-payment and education-loan options.",
         zeroEmi: {
-            title: "Loan at Zero Cost EMI",
+            title: "Monthly-Instalment EMI (Propelld & Jodo)",
             headingComponent: "h3",
-            description: "You can pay your annual course fee in monthly installments with no interest, no processing fee, and no hidden charges. We've partnered trusted fintech company working with over 2,500 institutions, to offer this option",
+            description: "Pay your course fee in monthly instalments through our financing partners, Propelld and Jodo. Vedam connects you with the partner; the loan, interest, processing fees and repayment terms are set and handled by the lender (see the table below). Loan approval is at the lender's sole discretion and subject to its credit policy.",
         },
         bankLoan: {
             title: "Education Loan from a Bank",
             description: "You can also access education loans through our trusted banking partners, making it easier for you to finance your education with flexible repayment options and competitive interest rates.",
         },
         loanPartners: [
-            { id: "propelled", label: "Propelled" },
-            { id: "jodo", label: "Jodo Cred Plan" },
+            { id: "propelled", label: "Propelld" },
+            { id: "jodo", label: "Jodo" },
         ],
         loanData: {
             propelled: {
