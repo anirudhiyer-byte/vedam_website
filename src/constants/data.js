@@ -280,7 +280,7 @@ export const homeScreenData = {
     background_video: "/vid/videoBgNew.mp4",
     title: "Learn Tech by Building\u00A0It",
     subtitle:
-      "Learn to build real products from Day 1. Vedam's 4-year on-campus, new-age CS & AI program prepares you for startups, innovation, and leadership with a B.Tech degree awarded by Ajeenkya DY Patil University, Pune or Sushant University, Gurugram (both UGC-recognised).",
+      "Build real products from Day 1. A 4-year on-campus CS & AI program for future founders and leaders, with a B.Tech degree awarded by Ajeenkya DY Patil University, Pune or Sushant University, Gurugram (both UGC-recognised).",
   },
   fromEducationToEntrance: {
     // title: "",
