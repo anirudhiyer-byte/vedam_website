@@ -1538,7 +1538,7 @@ export const faqsScreenData = [
         id: 40,
         title: "What is the fees structure of the program?",
         description:
-          "The total course fee for our comprehensive 4-year program for the academic year 2025 was 18 Lakh (excluding hostel and mess charges). The fee for the academic year 2026 will be announced soon. For a detailed breakdown of the fee structure and available financing options, please visit our official admissions page: https://vedam.org/admission",
+          "The four-year course fee for the 2026 intake is ₹18,50,000 at the Pune campus (Ajeenkya DY Patil University) and ₹18,00,000 at the Gurugram campus (Sushant University), excluding hostel and mess charges. For the full semester-wise breakdown of fees and financing options, please visit our official admissions page: https://vedam.org/admission",
       },
       {
         id: 41,
@@ -1557,7 +1557,7 @@ export const faqsScreenData = [
         id: 43,
         title: "Are the Scholarship applicable on the Hostel fees as well?",
         description:
-          "The Scholarship is applicable on tution fees(18 Lakhs) only. Hostel and mess fee are not included in Scholarship.",
+          "The scholarship is applicable on tuition fees only. Hostel and mess fees are not included in the scholarship.",
       },
       {
         id: 44,
