@@ -744,6 +744,20 @@ export default function PlacementsPage({ config }) {
                     {testimonials.heading}
                 </Typography>
 
+                {testimonials.intro && (
+                    <Typography
+                        sx={{
+                            fontFamily: "Inter, sans-serif",
+                            fontSize: { xs: "12px", md: "14px" },
+                            lineHeight: 1.5,
+                            color: "#475467",
+                            mt: "-8px",
+                        }}
+                    >
+                        {testimonials.intro}
+                    </Typography>
+                )}
+
                 <Box sx={{ position: "relative" }}>
                     {canScrollLeft && (
                         <Box

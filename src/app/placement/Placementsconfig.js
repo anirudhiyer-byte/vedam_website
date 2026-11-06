@@ -64,7 +64,8 @@ export const placementConfig = {
 
     // ── TESTIMONIALS ──────────────────────────────────────────────────────────
     testimonials: {
-        heading: "Student Testimonials",
+        heading: "What learners say about our instructors' earlier courses",
+        intro: "These learners studied with our instructors before Vedam, not at Vedam. Their feedback relates to those earlier courses.",
         items: [
             {
                 name: "Divya Chopra",
