@@ -69,16 +69,14 @@ export const ImageGrid = () => {
         marginBottom: { xs: "0.5rem", md: "2rem" },
       }}
     >
-      {/* Sliding Rows */}
-      <SlidingRow images={row1} reverse={false} speed={SLIDE_DURATION} />
-      <SlidingRow images={row2} reverse={true} speed={SLIDE_DURATION + 7} />
-
+      {/* Qualifier — body-text size, above the logos (AICTE/ASCI prominence) */}
       <Typography
-        variant={"subtitle1"}
         textAlign={"center"}
         sx={{
-          marginTop: { xs: "16px", md: "32px" },
-          fontSize: { xs: "6px", md: "8px" },
+          marginBottom: { xs: "12px", md: "20px" },
+          maxWidth: 840,
+          mx: "auto",
+          fontSize: { xs: "12px", md: "14px" },
           fontFamily: "Inter",
           color: "#1E1E1E",
           lineHeight: "150%",
@@ -86,6 +84,10 @@ export const ImageGrid = () => {
       >
         {homeScreenData.fromEducationToEntrance.bottomText}
       </Typography>
+
+      {/* Sliding Rows */}
+      <SlidingRow images={row1} reverse={false} speed={SLIDE_DURATION} />
+      <SlidingRow images={row2} reverse={true} speed={SLIDE_DURATION + 7} />
 
       {/* Keyframes for sliding animation */}
       <style jsx global>{`

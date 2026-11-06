@@ -87,6 +87,23 @@ export const InvestorWhoTrustUs = () => {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
+      {/* Qualifier — body-text size, above the logos (AICTE/ASCI prominence) */}
+      <Typography
+        textAlign={"center"}
+        sx={{
+          marginBottom: { xs: "12px", md: "20px" },
+          whiteSpace: "normal",
+          maxWidth: 840,
+          mx: "auto",
+          fontSize: { xs: "12px", md: "14px" },
+          fontFamily: "Inter",
+          color: "#1E1E1E",
+          lineHeight: "150%",
+        }}
+      >
+        {homeScreenData.investorWhoTrustUs.bottomText}
+      </Typography>
+
       <Box
         ref={carouselRef}
         sx={{
@@ -129,20 +146,6 @@ export const InvestorWhoTrustUs = () => {
           )
         )}
       </Box>
-
-      <Typography
-        variant={"subtitle1"}
-        textAlign={"center"}
-        sx={{
-          marginTop: { xs: "16px", md: "32px" },
-          fontSize: { xs: "6px", md: "8px" },
-          fontFamily: "Inter",
-          color: "#1E1E1E",
-          lineHeight: "150%",
-        }}
-      >
-        {homeScreenData.investorWhoTrustUs.bottomText}
-      </Typography>
     </Box>
   );
 };

@@ -21,6 +21,21 @@ const RecognitionAwards = () => {
                 alignItems: "flex-start",
             }}
         >
+            {/* Qualifier — body-text size, above the award images (AICTE/ASCI prominence) */}
+            <Typography
+                textAlign={"center"}
+                sx={{
+                    width: "100%",
+                    marginBottom: { xs: "12px", md: "20px" },
+                    fontSize: { xs: "12px", md: "14px" },
+                    fontFamily: "Inter",
+                    color: "#1E1E1E",
+                    lineHeight: "150%",
+                }}
+            >
+                {homeScreenData.Recognitionawards.bottomText}
+            </Typography>
+
             {/* Awards Card */}
             <Box
                 sx={{
@@ -76,27 +91,6 @@ const RecognitionAwards = () => {
                     </Box>
                 ))}
             </Box>
-            <Box sx={{
-                width: '100%',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-            }}>
-                <Typography
-                    variant={"subtitle1"}
-                    textAlign={"center"}
-                    sx={{
-                        marginTop: { xs: "16px", md: "32px" },
-                        fontSize: { xs: "6px", md: "8px" },
-                        fontFamily: "Inter",
-                        color: "#1E1E1E",
-                        lineHeight: "150%",
-                    }}
-                >
-                    {homeScreenData.Recognitionawards.bottomText}
-                </Typography>
-            </Box>
-
         </Box>
     );
 };

@@ -392,7 +392,7 @@ export const homeScreenData = {
       },
     ],
     bottomText:
-      "*Placement network of SET Education's parent organization and past success record of Vedam founding team ",
+      "These companies have recruited from the earlier cohorts of Vedam's parent organisation, Elevate Education, and reflect the founding team's prior track record — not Vedam's own placements. Vedam's first undergraduate batch graduates in 2029.",
   },
   inCollaborationWith: {
     title: "",
@@ -448,7 +448,7 @@ export const homeScreenData = {
       { id: 7, img: "/img/investors/prime.webp" },
     ],
     bottomText:
-      "*Investor Network of SET Education's parent organization",
+      "This investor network belongs to Vedam's parent organisation, Elevate Education, not to Vedam directly.",
   },
   whyVedam: {
     title: "",
@@ -728,7 +728,7 @@ export const homeScreenData = {
   },
   Recognitionawards: {
     subtitle: "Recognition & Awards",
-    bottomText: "*Recognition & Awards of SET Education's parent organization"
+    bottomText: "These recognitions and awards were received by Vedam's parent organisation, Elevate Education — not by Vedam."
   },
   aiFirst: {
     title: "",
