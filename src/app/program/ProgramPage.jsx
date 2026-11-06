@@ -4,6 +4,7 @@ import React, { useRef, useState } from "react";
 import { Box, Typography, Button } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import { ScholarshipTerms } from "@/components/admission/ScholarshipTerms";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Shared styles
@@ -833,6 +834,8 @@ export default function ProgramPage({ config }) {
             </Box>
           ))}
         </Box>
+
+        <ScholarshipTerms />
       </Box>
 
       {/* ── 7. FEE STRUCTURE ────────────────────────────────────────────────── */}

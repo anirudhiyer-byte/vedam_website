@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import { ScholarshipTerms } from "./ScholarshipTerms";
 
 const scholarships = {
   description: "Talent shouldn't wait on finances. Vedam rewards merit, achievement, and potential — with scholarships that make the best education accessible to the best students.",
@@ -174,6 +175,8 @@ export const ScholarshipProgram = () => {
           </Box>
         ))}
       </Box>
+
+      <ScholarshipTerms />
     </Box>
   );
 };
