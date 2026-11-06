@@ -287,7 +287,8 @@ export const InCollaborationWith = () => {
               <Typography
                 sx={{
                   color: "#1E1E1E",
-                  fontSize: { xs: "0.98rem", md: "1.28rem" },
+                  fontSize: { xs: "1.1rem", md: "1.4rem" },
+                  fontWeight: 600,
                   lineHeight: 1.35,
                   textAlign: "center",
                   minHeight: { md: "72px" },

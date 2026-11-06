@@ -479,9 +479,14 @@ export default function ProgramPage({ config }) {
               }}>
                 {hero.title}
               </Typography>
-              <Typography component="h2" sx={{ fontFamily: "Inter, sans-serif", fontWeight: 500, fontSize: { xs: "10px", md: "14px" }, color: "#F9F9F9", opacity: 0.9, m: 0 }}>
+              <Typography component="h2" sx={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: { xs: "12px", md: "18px" }, color: "#FFFFFF", lineHeight: 1.3, m: 0 }}>
                 {hero.subtitle}
               </Typography>
+              {hero.subNote && (
+                <Typography sx={{ fontFamily: "Inter, sans-serif", fontWeight: 400, fontSize: { xs: "10px", md: "13px" }, color: "#F9F9F9", opacity: 0.85, lineHeight: 1.4, m: 0 }}>
+                  {hero.subNote}
+                </Typography>
+              )}
             </Box>
 
             {/* Accreditation pill */}

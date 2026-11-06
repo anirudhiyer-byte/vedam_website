@@ -30,7 +30,8 @@ export const gurugramConfig = {
         partnerLogo: "/img/program/sushant.webp",
         partnerLogoAlt: "Sushant University logo",
         title: "UG Program in Computer Science & Artificial Intelligence",
-        subtitle: "Programme offered and degree awarded by Sushant University, Gurugram. On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
+        subtitle: "Programme offered and degree awarded by Sushant University, Gurugram.",
+        subNote: "On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
         applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_gurugram&utm_campaign=vsat_early_registration",
         brochureUrl: "https://drive.google.com/file/d/1WzTusTfoSeYszGtlWtgRdNEZ9ta9EZpJ/view?usp=drive_link",
         accreditationPill: [
@@ -323,7 +324,8 @@ export const puneConfig = {
         partnerLogo: "/img/program/adypu.webp",
         partnerLogoAlt: "ADYPU logo",
         title: "UG Program in Computer Science & Artificial Intelligence",
-        subtitle: "Programme offered and degree awarded by Ajeenkya DY Patil University, Pune. On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
+        subtitle: "Programme offered and degree awarded by Ajeenkya DY Patil University, Pune.",
+        subNote: "On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
         applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_pune&utm_campaign=vsat_early_registration",
         brochureUrl: "https://drive.google.com/file/d/1j04UERHtvzVG0i9r0A8EY5s0dnAT_DT-/view?usp=drive_link",
         accreditationPill: [
