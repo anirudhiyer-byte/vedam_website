@@ -32,7 +32,7 @@ export const gurugramConfig = {
         title: "UG Program in Computer Science & Artificial Intelligence",
         subtitle: "Programme offered and degree awarded by Sushant University, Gurugram.",
         subNote: "On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
-        applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_gurugram&utm_campaign=vsat_early_registration",
+        applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_gurugram&utm_campaign=vsat_apply",
         brochureUrl: "https://drive.google.com/file/d/1WzTusTfoSeYszGtlWtgRdNEZ9ta9EZpJ/view?usp=drive_link",
         accreditationPill: [
             { src: "/img/program/ugc-logo.svg", alt: "UGC", label: "UGC Recognised", width: { xs: "16px", md: "24px" } },
@@ -46,7 +46,7 @@ export const gurugramConfig = {
             { title: "Degree Awarded By", body: "Sushant University — Gurugram, Delhi NCR", highlight: true },
             { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
-        footnote: "*Admissions for the 2026 intake are closed. Register your interest for the 2027 intake. Only top 5% applicants are selected.",
+        footnote: "*Admissions for the 2027 intake are now open. Register and give VSAT. Only top 5% applicants are selected.",
     },
 
     citySection: {
@@ -326,7 +326,7 @@ export const puneConfig = {
         title: "UG Program in Computer Science & Artificial Intelligence",
         subtitle: "Programme offered and degree awarded by Ajeenkya DY Patil University, Pune.",
         subNote: "On campus, Vedam brings the new-age approach: coding from day one, a project-first way of learning, industry mentors and real career preparation.",
-        applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_pune&utm_campaign=vsat_early_registration",
+        applyUrl: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_hero_pune&utm_campaign=vsat_apply",
         brochureUrl: "https://drive.google.com/file/d/1j04UERHtvzVG0i9r0A8EY5s0dnAT_DT-/view?usp=drive_link",
         accreditationPill: [
             { src: "/img/program/ugc-logo.svg", alt: "UGC", label: "UGC Recognised", width: { xs: "16px", md: "24px" } },
@@ -341,7 +341,7 @@ export const puneConfig = {
             { title: "Degree Awarded By", body: "Ajeenkya DY Patil University - DY Patil Knowledge City, Pune", highlight: true },
             { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
-        footnote: "*Admissions for the 2026 intake are closed. Register your interest for the 2027 intake. Only top 5% applicants are selected.",
+        footnote: "*Admissions for the 2027 intake are now open. Register and give VSAT. Only top 5% applicants are selected.",
     },
 
     citySection: {

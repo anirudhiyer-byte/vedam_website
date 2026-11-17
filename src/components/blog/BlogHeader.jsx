@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Box } from "@mui/material";
 
 const SIGN_UP_URL =
-  "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=blog_header&utm_campaign=vsat_early_registration";
+  "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=blog_header&utm_campaign=vsat_apply";
 
 // Minimal, glassy, translucent sticky header for the blog section.
 export default function BlogHeader() {

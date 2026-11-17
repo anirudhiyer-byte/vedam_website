@@ -271,7 +271,7 @@ export const navLinks = [
   { label: "Life @ Vedam", path: "/life" },
   { label: "FAQs", path: "/faqs" },
   // { label: "About Us", path: "/about" },
-  { label: "Sign Up", path: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=nav_bar&utm_campaign=vsat_early_registration" }, //Don't reorder register
+  { label: "Sign Up", path: "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=nav_bar&utm_campaign=vsat_apply" }, //Don't reorder register
   // { label: "Login", path: "https://apply.vedam.org/" }, //Don't reorder login
 ];
 
@@ -1037,13 +1037,13 @@ export const admissionScreenData = {
     background_video:
       "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
     title: "Vedam Admissions 2027",
-    subtitle: "Admissions for the 2026 intake are closed — register your interest for the 2027 batch.",
+    subtitle: "Admissions for 2027 intake are now open. Register and give VSAT now.",
   },
   admissionAndFees: {
     subtitle: "Admission & Fees",
     description:
       "We look forward to welcoming students who value a talented peer group. Only the top 5% will make it to the Vedam batch. The group study and peer-to-peer learning increase greatly in such a batch.",
-    applyNow: "Register your interest for VSAT 2027 Batch",
+    applyNow: "Register for the VSAT 2027 Batch",
     eligibilityStrong: "Eligibility Criteria: ",
     eligibilityText:
       "Candidates must have passed Class 12th with PCM in 2026 or 2027 with ≥50% aggregate and ≥50% in each of Physics, Chemistry, and Mathematics.",
@@ -1052,16 +1052,16 @@ export const admissionScreenData = {
     subtitle: "Key Dates",
     headerText: "Intake Dates",
     firstArray: [
-      "VSAT Test",
+      "VSAT Date",
       "VSAT Result",
-      "Personal Interview",
+      "VSAT Interview",
       "Final Offer",
     ],
     secondArray: [
-      "Give VSAT Today",
-      "Within 24 Hours",
-      "Within 2 days of the exam",
-      "Within 3 days of the exam, after counselling if selected",
+      "3rd Dec",
+      "2 days from the test",
+      "Within 5 days of VSAT Result",
+      "Within 12 days of VSAT Result",
     ],
     closedNote: "Applications for 2026 are now closed!",
   },
@@ -1446,7 +1446,7 @@ export const faqsScreenData = [
         id: 13,
         title: "I did my 12th in 2024 or before, Am I eligible to apply?",
         description:
-          "You should have completed your 12th grade education in 2025 or 2026 with more than 50% Marks in PCM and 12th board overall. If you meet these requirements, we invite you to join us and embark on an exciting journey toward a future in technology.",
+          "You should have completed your 12th grade education in 2026 or 2027 with more than 50% Marks in PCM and 12th board overall. If you meet these requirements, we invite you to join us and embark on an exciting journey toward a future in technology.",
       },
       {
         id: 14,

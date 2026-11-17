@@ -53,7 +53,7 @@ const Admission = ({
             lineHeight: "120%",
           }}
         >
-          Apply Now for the 2026 Intake
+          Apply Now for the 2027 Intake
         </Typography>
       ),
     },

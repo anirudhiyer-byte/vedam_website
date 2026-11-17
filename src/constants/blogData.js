@@ -110,4 +110,4 @@ export const blogPosts = [
 ];
 
 export const REGISTER_VSAT_URL =
-  "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=blog_cta&utm_campaign=vsat_early_registration";
+  "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=blog_cta&utm_campaign=vsat_apply";

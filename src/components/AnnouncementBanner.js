@@ -3,7 +3,7 @@ import { Box, Typography, Stack, Button } from "@mui/material";
 import { usePathname } from "next/navigation";
 
 const REGISTER_INTEREST_URL =
-  "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=sticky_header&utm_campaign=vsat_early_registration";
+  "https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=sticky_header&utm_campaign=vsat_apply";
 
 export default function AnnouncementBanner() {
   const pathname = usePathname();
@@ -35,8 +35,7 @@ export default function AnnouncementBanner() {
           sx={{ fontSize: { xs: 11, sm: 16 }, textAlign: "center" }}
         >
           <strong>
-            Admission for 2026 batch is closed. Register your interest for 2027
-            batch now!
+            2027 Admissions are open, Register now and give VSAT
           </strong>
         </Typography>
         <Button

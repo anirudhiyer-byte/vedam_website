@@ -1030,7 +1030,7 @@ export default function ProgramPage({ config }) {
       {/* ── 9. CTA ──────────────────────────────────────────────────────────── */}
       <Box
         component="a"
-        href="https://apply.vedam.org"
+        href="https://one.vedam.org/apply?utm_source=vedam_website&utm_medium=program_cta_banner&utm_campaign=vsat_apply"
         target="_blank"
         rel="noopener noreferrer"
         sx={{ ...sectionPad, bgcolor: "white", display: "block", cursor: "pointer" }}

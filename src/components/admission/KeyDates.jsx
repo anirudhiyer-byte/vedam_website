@@ -65,9 +65,10 @@ export const KeyDates = () => {
           ))}
         </Box>
 
-        {/* Second Row - Content */}
+        {/* Second Row - Content (per-column dates) */}
         <Box
           sx={{
+            display: "flex",
             padding: "20px",
             border: "1px solid #FB7F05",
             borderTop: "none",
@@ -75,17 +76,28 @@ export const KeyDates = () => {
             borderBottomRightRadius: "16px",
           }}
         >
-          <Typography
-            sx={{
-              fontWeight: "400",
-              lineHeight: "150%",
-              color: "#1E1E1E",
-              fontFamily: "Inter",
-              textAlign: "center",
-            }}
-          >
-            {admissionScreenData.keyDates.closedNote}
-          </Typography>
+          {admissionScreenData.keyDates.secondArray.map((value, index) => (
+            <Box
+              key={`desktop-value-${index}`}
+              sx={{
+                flex: 1,
+                textAlign: "center",
+                paddingLeft: index !== 0 ? "12px" : 0,
+                paddingRight: "12px",
+              }}
+            >
+              <Typography
+                sx={{
+                  fontWeight: "400",
+                  lineHeight: "150%",
+                  color: "#1E1E1E",
+                  fontFamily: "Inter",
+                }}
+              >
+                {value}
+              </Typography>
+            </Box>
+          ))}
         </Box>
       </Box>
 
@@ -102,42 +114,49 @@ export const KeyDates = () => {
           }}
         >
           {admissionScreenData.keyDates.firstArray.map((header, index) => (
-            <Box
-              key={`mobile-row-${index}`}
-              sx={{
-                padding: "16px",
-                backgroundColor: "rgba(251, 127, 5, 0.3)",
-                borderBottom: "1px solid #FB7F05",
-              }}
-            >
-              <Typography
+            <React.Fragment key={`mobile-row-${index}`}>
+              <Box
                 sx={{
-                  fontWeight: "400",
-                  lineHeight: "150%",
-                  color: "#1E1E1E",
-                  fontFamily: "Inter",
-                  textAlign: "center",
+                  padding: "16px",
+                  backgroundColor: "rgba(251, 127, 5, 0.3)",
+                  borderBottom: "1px solid #FB7F05",
                 }}
               >
-                {header}
-              </Typography>
-            </Box>
+                <Typography
+                  sx={{
+                    fontWeight: "600",
+                    lineHeight: "150%",
+                    color: "#1E1E1E",
+                    fontFamily: "Inter",
+                    textAlign: "center",
+                  }}
+                >
+                  {header}
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  padding: "16px",
+                  borderBottom:
+                    index !== admissionScreenData.keyDates.firstArray.length - 1
+                      ? "1px solid #FB7F05"
+                      : "none",
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "400",
+                    lineHeight: "150%",
+                    color: "#1E1E1E",
+                    fontFamily: "Inter",
+                    textAlign: "center",
+                  }}
+                >
+                  {admissionScreenData.keyDates.secondArray[index]}
+                </Typography>
+              </Box>
+            </React.Fragment>
           ))}
-
-          {/* Closed notice — replaces the individual date values */}
-          <Box sx={{ padding: "16px" }}>
-            <Typography
-              sx={{
-                fontWeight: "400",
-                lineHeight: "150%",
-                color: "#1E1E1E",
-                fontFamily: "Inter",
-                textAlign: "center",
-              }}
-            >
-              {admissionScreenData.keyDates.closedNote}
-            </Typography>
-          </Box>
         </Box>
       </Box>
     </Box>
