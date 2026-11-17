@@ -454,21 +454,21 @@ export const puneConfig = {
                         createPuneOutCampusHostelRoomType({
                             type: "4 Sharing Room",
                             hostelFeePerYear: "₹1,85,000/-",
-                            paymentTerms: "1st Installment: ₹1,10,000 (To be paid at the time of hostel booking) and 2nd Installment: ₹75,000 (To be paid by 30th November 2026)",
+                            paymentTerms: "1st Installment: ₹1,10,000 (To be paid at the time of hostel booking) and 2nd Installment: ₹75,000 (To be paid by 30th November 2027)",
                             securityDeposit: "₹15,000/-",
                             roomFeatures: "AC, Attached Washroom with Geyser, 100 MBPS Wifi, 1 Bed with Storage, 1 Mattress, 1 Wardrobe, 1 Study Table & Chair",
                         }),
                         createPuneOutCampusHostelRoomType({
                             type: "3 Sharing Room",
                             hostelFeePerYear: "₹1,99,500/-",
-                            paymentTerms: "1st Installment: ₹1,20,000 (To be paid at the time of hostel booking) and 2nd Installment: ₹79,500 (To be paid by 30th November 2026)",
+                            paymentTerms: "1st Installment: ₹1,20,000 (To be paid at the time of hostel booking) and 2nd Installment: ₹79,500 (To be paid by 30th November 2027)",
                             securityDeposit: "₹15,000/-",
                             roomFeatures: "AC, Attached Washroom with Geyser, 100 MBPS Wifi, 1 Bed with Storage, 1 Mattress, 1 Wardrobe, 1 Study Table & Chair",
                         }),
                         createPuneOutCampusHostelRoomType({
                             type: "2 Sharing Room",
                             hostelFeePerYear: "₹2,20,000/-",
-                            paymentTerms: "1st Installment: ₹1,35,000 (To be paid at the time of hostel booking) and 2nd Installment: ₹85,000 (To be paid by 30th November 2026)",
+                            paymentTerms: "1st Installment: ₹1,35,000 (To be paid at the time of hostel booking) and 2nd Installment: ₹85,000 (To be paid by 30th November 2027)",
                             securityDeposit: "₹15,000/-",
                             roomFeatures: "AC, Attached Washroom with Geyser, 100 MBPS Wifi, 1 Bed with Storage, 1 Mattress, 1 Wardrobe, 1 Study Table & Chair",
                         }),
@@ -482,7 +482,7 @@ export const puneConfig = {
                         ].join("\n"),
                         "The deposit carries an exit fee of ₹4,000/- per student per academic session, which shall be deducted from the student’s security deposit at the time of checkout, along with any other charges or penalties applicable.",
                         "The security deposit must be topped up promptly if it is drawn down due to damages (beyond regular wear and tear), fines, or any other recoverable amounts. The deposit must be maintained at ₹15,000/- at all times.",
-                        "Students cannot opt out of hostels in the middle of an academic year. Academic year covers 11 months (15th July 2026 – 14th June 2027). Knowing this, if students want to discontinue in middle of academic year, full year fee will be chargeable.",
+                        "Students cannot opt out of hostels in the middle of an academic year. Academic year covers 11 months (15th July 2027 – 14th June 2028). Knowing this, if students want to discontinue in middle of academic year, full year fee will be chargeable.",
                         [
                             "Housekeeping:",
                             "a. Room Cleaning: Alternate day (every other day) per room.",

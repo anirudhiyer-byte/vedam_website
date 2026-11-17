@@ -373,7 +373,7 @@ export const HostelContent = ({ selectedHostelType }) => {
                             "There will be a free transportation service provided to Vedam students in the morning and evening for traveling between hostel and university",
                             "Students need to pay 1 semester fee to book a bed",
                             "Hostel fee is non refundable. Students will be charged for the entire year, even if one plans to vacate mid-year.",
-                            "Fee are applicable for the academic year 2025 - 26 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment",
+                            "Fee are applicable for the academic year 2027-2028 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment",
                             <>
                                 You can find more details about your space Hostel for Vedam Students
                                 <Link
@@ -983,7 +983,7 @@ export const HostelContent = ({ selectedHostelType }) => {
                             "There are very few beds left in ADYPU hostel for girls, which are getting allocated on a first cum first basis",
                             "There are no more beds left in the ADYPU hostel for boys",
                             "Hostel accommodation fee is non refundable. Students will be charged for the entire year, even if one plans to vacate mid-year",
-                            "Fee are applicable for the academic year 2025 - 26 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment",
+                            "Fee are applicable for the academic year 2027-2028 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment",
                             <>
                                 Should you wish to book, please contact Vedam team at{" "}
                                 <Link

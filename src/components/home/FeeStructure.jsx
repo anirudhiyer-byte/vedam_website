@@ -736,7 +736,7 @@ export const FeeStructure = ({
               lineHeight: 1.6,
               mb: 1,
             }}>
-            Fee are applicable for the academic year 2025 - 26 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment
+            Fee are applicable for the academic year 2027-2028 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment
           </Typography>
           <Typography
             component="li"
@@ -1035,7 +1035,7 @@ export const FeeStructure = ({
               lineHeight: 1.6,
               mb: 1,
             }}>
-            <Box component="span" sx={{ fontWeight: 600 }}></Box> Fee are applicable for the academic year 2025 - 26 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment.
+            <Box component="span" sx={{ fontWeight: 600 }}></Box> Fee are applicable for the academic year 2027-2028 and may increase by 7 - 10% annually from the second year onwards due to inflation adjustment.
           </Typography>
           <Typography
             component="li"
