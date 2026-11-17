@@ -125,7 +125,7 @@ export default function Refund() {
             Special Consideration Refund Requests
           </Typography>
           <Typography fontWeight="bold" mb={1}>
-            For Students pursuing 12th Class in 2026 and If the student’s final Class 12th score is
+            For Students pursuing 12th Class in 2027 and If the student’s final Class 12th score is
             below 50%:
           </Typography>
           <TableContainer component={Paper} variant="outlined">

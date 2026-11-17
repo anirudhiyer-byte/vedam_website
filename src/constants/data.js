@@ -1063,10 +1063,10 @@ export const admissionScreenData = {
       "Within 5 days of VSAT Result",
       "Within 12 days of VSAT Result",
     ],
-    closedNote: "Applications for 2026 are now closed!",
+    closedNote: "Applications for the 2027 intake are now open.",
   },
   admissionProcess: {
-    subtitle: "Admission Process 2026",
+    subtitle: "Admission Process 2027",
     leftSideArray: [
       { id: 0, text: "Apply Online" },
       { id: 1, text: "Appear for Test" },
@@ -1427,7 +1427,7 @@ export const faqsScreenData = [
         id: 10,
         title: "What is the eligibility criteria?",
         description:
-          "All the students who appeared for 12th exam in 2025, 2026 with PCM (>50% in PCM & 12th boards Overall) are eligible.",
+          "All the students who appeared for 12th exam in 2026, 2027 with PCM (>50% in PCM & 12th boards Overall) are eligible.",
       },
       {
         id: 11,
@@ -1452,7 +1452,7 @@ export const faqsScreenData = [
         id: 14,
         title: "Do you accept applicants from Open Schooling (NIOS/Open Board)?",
         description:
-          "We accept applications from students enrolled with NIOS (National Institute of Open Schooling), subject to the condition that their final Class 12 result is officially declared and submitted to us on or before July 2026",
+          "We accept applications from students enrolled with NIOS (National Institute of Open Schooling), subject to the condition that their final Class 12 result is officially declared and submitted to us on or before July 2027",
       },
       // Add more questions as needed
     ],
@@ -1538,7 +1538,7 @@ export const faqsScreenData = [
         id: 40,
         title: "What is the fees structure of the program?",
         description:
-          "The four-year course fee for the 2026 intake is ₹18,50,000 at the Pune campus (Ajeenkya DY Patil University) and ₹18,00,000 at the Gurugram campus (Sushant University), excluding hostel and mess charges. For the full semester-wise breakdown of fees and financing options, please visit our official admissions page: https://vedam.org/admission",
+          "The four-year course fee for the 2027 intake is ₹18,50,000 at the Pune campus (Ajeenkya DY Patil University) and ₹18,00,000 at the Gurugram campus (Sushant University), excluding hostel and mess charges. For the full semester-wise breakdown of fees and financing options, please visit our official admissions page: https://vedam.org/admission",
       },
       {
         id: 41,

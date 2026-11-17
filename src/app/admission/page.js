@@ -11,7 +11,7 @@ export const metadata = {
   description: 'Apply for BTech in CS & AI at Vedam. New age private CS college with simple admission process, scholarships up to 100%, and direct admission.',
   keywords: [
     'Vedam School of Technology admissions',
-    'Vedam admissions 2026',
+    'Vedam admissions 2027',
     'BTech Computer Science and AI admission',
     'CS AI college admission India',
     'AI engineering college admission',

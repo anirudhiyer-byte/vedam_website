@@ -44,7 +44,7 @@ export const gurugramConfig = {
         tiles: [
             { title: "4 Years", body: "B.Tech in CS with specialisation in AI by Sushant University", highlight: false },
             { title: "Degree Awarded By", body: "Sushant University — Gurugram, Delhi NCR", highlight: true },
-            { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
+            { title: "Eligibility", body: "2026, 2027 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
         footnote: "*Admissions for the 2027 intake are now open. Register and give VSAT. Only top 5% applicants are selected.",
     },
@@ -339,7 +339,7 @@ export const puneConfig = {
         tiles: [
             { title: "4 Years", body: "B.Tech in CS with Specialisation in AI by Ajeenkya DY Patil University", highlight: false },
             { title: "Degree Awarded By", body: "Ajeenkya DY Patil University - DY Patil Knowledge City, Pune", highlight: true },
-            { title: "Eligibility", body: "2025, 2026 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
+            { title: "Eligibility", body: "2026, 2027 12th student with PCM (>50% in PCM & 12th boards Overall)", highlight: false },
         ],
         footnote: "*Admissions for the 2027 intake are now open. Register and give VSAT. Only top 5% applicants are selected.",
     },
