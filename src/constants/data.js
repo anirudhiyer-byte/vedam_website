@@ -200,40 +200,35 @@ export const instructorData = [
     facultyType: "Visiting Faculty"
   }
 ];
+// Why Vedam bento cards. Each `img` is a finished card graphic (title +
+// description baked in); the text is mirrored here for alt text / SEO.
+// Order: first four fill the 2×2 grid, the fifth is the tall featured card.
 export const detailsData = [
   {
-    image: "/img/whyvedam/second.webp",
-    bgImage: "/img/whyvedam/img3.webp",
+    img: "/img/whyvedam/why_code.webp",
     title: "Code From Day 1",
-    description:
-      "From Day 1, you'll be writing real code, building projects, and solving industry-relevant problems.",
+    description: "Code. Build. Solve real-world problems. From Day 1.",
   },
   {
-    image: "/img/whyvedam/first.webp",
-    bgImage: "/img/whyvedam/img2.webp",
-    title: "Only top 5% get in",
-    description:
-      "Merit based selection to attract the top talent. Learn with and co-create best codes.",
+    img: "/img/whyvedam/why_top5.webp",
+    title: "Only Top 5% Get In",
+    description: "Learn and co-create with the Top Talent.",
   },
   {
-    image: "/img/whyvedam/fourth.webp",
-    bgImage: "/img/whyvedam/img5.webp",
+    img: "/img/whyvedam/why_ai.webp",
     title: "AI First Curriculum",
-    description:
-      "Our AI-First Curriculum is designed to equip students with the skills, tools, and mindset needed to thrive in an AI-powered world.",
+    description: "AI integrated throughout the program, not just an add-on.",
   },
   {
-    image: "/img/whyvedam/fifth.webp",
-    bgImage: "/img/whyvedam/img4.webp",
-    title: "Personal Macbook",
-    description:
-      "It's your key to a hands-on, immersive and collaborative learning experience in Computer Science and AI. ",
+    img: "/img/whyvedam/why_projects.webp",
+    title: "Build Real Projects",
+    description: "Work on real-world projects and build a strong portfolio.",
   },
   {
-    image: "/img/whyvedam/third.webp",
-    bgImage: "/img/whyvedam/img1.webp",
-    title: "Top Instructors",
-    description: "At Vedam, you’ll learn from the best minds in tech—engineers, researchers, and industry leaders from Google, Microsoft, Amazon, and top startups.",
+    img: "/img/whyvedam/why_maang.webp",
+    title: "Learn From MAANG Experts",
+    description:
+      "Learn from engineers, researchers, and industry leaders from Google, Microsoft, Amazon, and top tech startups.",
   },
 ];
 

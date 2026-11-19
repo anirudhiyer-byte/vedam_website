@@ -1,7 +1,17 @@
 "use client";
 import React from "react";
 import { Box } from "@mui/material";
+import Image from "next/image";
 import { detailsData } from "@/constants/data";
+
+// Desktop placement for the four small cards (2×2 block on the left).
+// The featured card sits in column 3 and spans both rows.
+const smallPos = [
+  { gridColumn: "1", gridRow: "1" },
+  { gridColumn: "2", gridRow: "1" },
+  { gridColumn: "1", gridRow: "2" },
+  { gridColumn: "2", gridRow: "2" },
+];
 
 const WhyVedam = ({ data }) => {
   const dataArr = data ? data : detailsData;
@@ -12,158 +22,56 @@ const WhyVedam = ({ data }) => {
   return (
     <Box
       sx={{
-        display: "flex",
-        flexDirection: { xs: "column", md: "row" },
+        display: "grid",
+        gridTemplateColumns: { xs: "1fr", md: "1fr 1fr 1.4fr" },
         gap: "16px",
-        alignItems: "stretch",
         width: "100%",
       }}
     >
-      {/* ── Left: 2×2 grid of small cards ── */}
-      <Box
-        sx={{
-          display: "grid",
-          gridTemplateColumns: {
-            xs: "1fr 1fr",
-            md: "1fr 1fr",
-          },
-          gap: "16px",
-          flex: { xs: "unset", md: "0 0 416px" },
-          width: { xs: "100%", md: "416px" },
-        }}
-      >
-        {gridItems.map((item, index) => (
-          <Box
-            key={`grid-${index}`}
-            sx={{
-              position: "relative",
-              height: { xs: "240px", md: "200px" },
-              borderRadius: "16px",
-              overflow: "hidden",
-              backgroundImage: `url(${item.bgImage})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              cursor: "pointer",
-              "&:hover .whyvedam-desc": {
-                opacity: 1,
-                maxHeight: "200px",
-                marginTop: "8px",
-              },
-            }}
-          >
-            {/* Title + description pinned to bottom */}
-            <Box
-              sx={{
-                position: "absolute",
-                bottom: 0,
-                left: 0,
-                right: 0,
-                zIndex: 2,
-                borderRadius: "0 0 16px 16px",
-                background: "linear-gradient(180deg, rgba(255, 255, 255, 0.85) -50.79%, rgba(12, 9, 49, 0.85) 69.78%)",
-                padding: "16px",
-                transition: "all 0.3s ease",
-              }}
-            >
-              <Box
-                component="h3"
-                sx={{
-                  color: "white",
-                  fontWeight: "bold",
-                  fontSize: { xs: 14, sm: 18, md: 18 },
-                  lineHeight: "130%",
-                  margin: 0,
-                }}
-              >
-                {item.title}
-              </Box>
+      {gridItems.map((item, index) => (
+        <Box
+          key={`why-${index}`}
+          sx={{
+            position: "relative",
+            width: "100%",
+            aspectRatio: "1160 / 1005",
+            borderRadius: "16px",
+            overflow: "hidden",
+            gridColumn: { md: smallPos[index].gridColumn },
+            gridRow: { md: smallPos[index].gridRow },
+          }}
+        >
+          <Image
+            src={item.img}
+            alt={`${item.title} — ${item.description}`}
+            fill
+            sizes="(max-width: 900px) 100vw, 300px"
+            style={{ objectFit: "cover" }}
+          />
+        </Box>
+      ))}
 
-              <Box
-                className="whyvedam-desc"
-                sx={{
-                  color: "white",
-                  fontSize: { xs: 11, sm: 13 },
-                  opacity: 0,
-                  maxHeight: 0,
-                  marginTop: 0,
-                  overflow: "hidden",
-                  transition: "all 0.3s ease",
-                }}
-              >
-                {item.description}
-              </Box>
-            </Box>
-          </Box>
-        ))}
-      </Box>
-
-      {/* ── Right: featured / instructors card ── */}
       {featuredItem && (
         <Box
           sx={{
-            flex: 1,
-            width: { xs: "100%", md: "auto" },
-            height: { xs: "auto", md: "416px" },
-            minHeight: { xs: "240px", md: "416px" },
             position: "relative",
+            width: "100%",
+            // On mobile the card keeps its own (portrait) aspect ratio; on
+            // desktop it stretches to span both rows of the small-card block.
+            aspectRatio: { xs: "1660 / 2065", md: "auto" },
             borderRadius: "16px",
             overflow: "hidden",
-            backgroundImage: `url(${featuredItem.bgImage})`,
-            backgroundSize: "100% auto",
-            backgroundPosition: "top center",
-            backgroundRepeat: "no-repeat",
-            backgroundColor: "#1a0533",
-            cursor: "pointer",
-            "&:hover .whyvedam-feat-desc": {
-              opacity: 1,
-              maxHeight: "200px",
-              marginTop: "8px",
-            },
+            gridColumn: { md: "3" },
+            gridRow: { md: "1 / span 2" },
           }}
         >
-          {/* Title pinned to bottom */}
-          <Box
-            sx={{
-              position: "absolute",
-              bottom: 0,
-              left: 0,
-              right: 0,
-              zIndex: 2,
-              borderRadius: "0 0 16px 16px",
-              background: "linear-gradient(180deg, rgba(255, 255, 255, 0.85) -50.79%, rgba(12, 9, 49, 0.85) 69.78%)",
-              padding: "16px",
-              transition: "all 0.3s ease",
-            }}
-          >
-            <Box
-              component="h3"
-              sx={{
-                color: "white",
-                fontWeight: "bold",
-                fontSize: { xs: 14, sm: 20 },
-                lineHeight: "130%",
-                margin: 0,
-              }}
-            >
-              {featuredItem.title}
-            </Box>
-
-            <Box
-              className="whyvedam-feat-desc"
-              sx={{
-                color: "white",
-                fontSize: { xs: 11, sm: 14 },
-                opacity: 0,
-                maxHeight: 0,
-                marginTop: 0,
-                overflow: "hidden",
-                transition: "all 0.3s ease",
-              }}
-            >
-              {featuredItem.description}
-            </Box>
-          </Box>
+          <Image
+            src={featuredItem.img}
+            alt={`${featuredItem.title} — ${featuredItem.description}`}
+            fill
+            sizes="(max-width: 900px) 100vw, 480px"
+            style={{ objectFit: "cover" }}
+          />
         </Box>
       )}
     </Box>
