@@ -77,15 +77,16 @@ const WhyVedam = ({ data }) => {
         </Box>
       )}
 
-      {/* Mentor / instructor banner — spans the two small-card columns, below them */}
+      {/* Mentor / instructor banner — full-width, short strip below the cards.
+          Cropped from the top so the logos + faces stay in view. */}
       <Box
         sx={{
           position: "relative",
           width: "100%",
-          aspectRatio: "2325 / 1410",
+          aspectRatio: { xs: "2 / 1", md: "3 / 1" },
           borderRadius: "16px",
           overflow: "hidden",
-          gridColumn: { xs: "1", md: "1 / 3" },
+          gridColumn: { xs: "1", md: "1 / -1" },
           gridRow: { md: "3" },
         }}
       >
@@ -93,8 +94,8 @@ const WhyVedam = ({ data }) => {
           src="/img/whyvedam/img1.webp"
           alt="Vedam mentors from Apple, Google, ByteDance and other top tech companies"
           fill
-          sizes="(max-width: 900px) 100vw, 560px"
-          style={{ objectFit: "cover" }}
+          sizes="(max-width: 900px) 100vw, 940px"
+          style={{ objectFit: "cover", objectPosition: "center top" }}
         />
       </Box>
     </Box>
