@@ -129,13 +129,11 @@ export default function DetailsCard({
             }}
           >
             <Image
-              // src={"/img/macBook.webp"}
               // src={"/img/whyvedam/img1.webp"}
               alt="profile icon"
               width={260}
               height={100}
               style={{ objectFit: "contain" }}
-            // className="macbookStyle"
             />
           </Box>
         ) : (

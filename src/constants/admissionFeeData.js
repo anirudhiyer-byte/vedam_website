@@ -151,7 +151,7 @@ export const adypuPuneFeeStructureData = {
   rightSideText: [
     {
       id: 1,
-      text: "Apple Macbook is included in the above course fee",
+      text: "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
     },
     {
       id: 2,
@@ -324,7 +324,7 @@ export const gurugramFeeStructureData = {
   rightSideText: [
     {
       id: 1,
-      text: "Apple Macbook is included in the above course fee",
+      text: "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
     },
     {
       id: 2,

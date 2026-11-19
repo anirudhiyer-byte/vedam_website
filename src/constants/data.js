@@ -699,7 +699,7 @@ export const homeScreenData = {
     rightSideText: [
       {
         id: 1,
-        text: "Apple Macbook is included in the above course fee",
+        text: "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
       },
       {
         id: 2,
@@ -750,7 +750,7 @@ export const homeScreenData = {
       {
         id: 4,
         title: "Year 4",
-        subtitle: "Specialised AI Tracks",
+        subtitle: "Internship & Specialisation",
         content: <AIYear4 />,
       },
     ],
@@ -825,17 +825,24 @@ export const homeScreenData = {
     ],
   },
   year3: {
-    title: "AI Expertise & Industry Internship",
-    subtitle: "Build AI based applications ; Intern with top tech companies",
+    title: "AI Expertise & Advanced Builds",
+    subtitle:
+      "Build AI based applications and master your journey with Specialisation tracks that will be in-demand jobs of the time!",
     secondTitle: "Skills & Technologies",
     secondArray: [
       "Compiler Design",
       "Computer Networks",
-      "Deep Learning",
-      "Foundation in Blockchain",
+      "Entrepreneur Skills",
       "Foundation in Robotics",
+      "Advanced Robotics",
       "Foundation in DevOps",
-      "Entrepreneurship skills",
+      "Advance DevOps",
+      "Deep Learning",
+      "NLP",
+      "Foundation in Blockchain",
+      "Advance Blockchain",
+      "Computer Architecture",
+      "AI Ethics",
     ],
     Outcomes: "Outcomes",
     outcomeArray: [
@@ -851,39 +858,32 @@ export const homeScreenData = {
       },
       {
         id: 2,
-        text: "Go for Industry Internship- Formal Experience",
-        icon: "/img/outcomes/year3_3.webp",
+        text: "Build a robot that detects and avoids obstacles.",
+        icon: "/img/outcomes/year4_2.webp",
       },
     ],
   },
   year4: {
-    title: "Jobs of 2030 - Specialised Tracks",
+    title: "Internship, Capstone & Specialisation",
     subtitle:
-      "Master your journey with Specialisation tracks that will be in-demand jobs of the time!",
+      "Semester 7 is a full industry internship and semester 8 your capstone project - built on specialisation tracks aimed at the in-demand jobs of 2030.",
     secondTitle: "Skills & Technologies",
-    secondArray: [
-      "Advanced Robotics",
-      "Advanced Blockchain",
-      "NLP",
-      "Computer Architechture",
-      "Advanced DevOps",
-      "AI Ethics",
-    ],
+    secondArray: [],
     Outcomes: "Outcomes",
     outcomeArray: [
       {
         id: 0,
+        text: "Industry Internship with a top tech company",
+        icon: "/img/outcomes/year3_3.webp",
+      },
+      {
+        id: 1,
         text: "Build a Cryptocurrency Wallet like Coinbase",
         icon: "/img/outcomes/year4_1.webp",
       },
       {
-        id: 1,
-        text: "Build a robot that detects and avoids obstacles.",
-        icon: "/img/outcomes/year4_2.webp",
-      },
-      {
         id: 2,
-        text: "Prepare for Placements in top Tech Companies",
+        text: "Capstone Project & placement readiness",
         icon: "/img/outcomes/year4_3.webp",
       },
     ],

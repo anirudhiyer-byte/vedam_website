@@ -156,7 +156,7 @@ export const gurugramConfig = {
             totals: ["₹2,64,813", "₹2,19,313", "₹2,19,313", "₹2,19,313", "₹2,19,313", "₹2,19,313", "₹2,19,313", "₹2,19,313", "₹18,00,000"],
         },
         feeNotes: [
-            "Apple Macbook is included in the above course fee.",
+            "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
             "The fees mentioned in the table is the Course fees. This is exclusive of Hostel & Mess fees.",
             "Hostel and mess services are available on the Sushant University campus, subject to availability and offered on a first-come, first-served basis.",
             "The following are additional fees payable directly to the University, over and above the course fee. These include One-time component of Admission Fee (₹45,000) and Application Fee (₹1,500); the Examination Fee is ₹4,000 per semester.",
@@ -201,6 +201,7 @@ export const gurugramConfig = {
                         }),
                     ],
                     notes: [
+                        "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
                         [
                             "Fees:",
                             "a. Covers 10 months.",
@@ -437,7 +438,7 @@ export const puneConfig = {
             totals: ["3,01,250", "2,21,250", "2,21,250", "2,21,250", "2,21,250", "2,21,250", "2,21,250", "2,21,250", "18,50,000"],
         },
         feeNotes: [
-            "Apple Macbook is included in the above course fee.",
+            "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
             "The fees mentioned in the table is the Course fees. This is exclusive of Hostel & Mess fees.",
             "Hostel and mess services are available on the ADYPU campus, subject to availability and offered on a first-come, first-served basis.",
             "Additional fees payable directly to the University, over and above the course fee: one-time Application Fee (₹1,500), Registration Fee (₹5,000), Uniform Fee (₹5,000), Sports Activity Fee (₹5,000), and Examination Fee (₹3,000 per semester).",
@@ -474,6 +475,7 @@ export const puneConfig = {
                         }),
                     ],
                     notes: [
+                        "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
                         "The property is Union Living, Lohegaon, which is less than 1 KM away from ADYPU, Pune.",
                         [
                             "The following are included in the Mess and Laundry fees:",
@@ -534,7 +536,9 @@ export const puneConfig = {
                             applicableFor: "Boys Only",
                         }),
                     ],
-                    notes: [],
+                    notes: [
+                        "This fee is for the 2026-27 session, updated fee for the 2027-28 session will be updated soon.",
+                    ],
                 },
             ],
         },

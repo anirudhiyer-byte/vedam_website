@@ -89,56 +89,60 @@ export const AIYear4 = () => {
       >
         {homeScreenData.year4.subtitle}
       </Typography>
-      <Typography
-        component="h4"
-        variant="h4"
-        sx={{
-          fontSize: "14px",
-          fontFamily: "Inter",
-          fontWeight: "700",
-          color: "rgba(12, 38, 81, 1)",
-          marginBottom: "0.5rem",
-          lineHeight: "100%",
-        }}
-      >
-        {homeScreenData.year4.secondTitle}
-      </Typography>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "flex-start",
-          gap: "0.5rem",
-          flexWrap: "wrap",
-          marginBottom: "20px",
-        }}
-      >
-        {homeScreenData.year4.secondArray.map((item, index) => (
-          <Box
-            key={index}
+      {homeScreenData.year4.secondArray.length > 0 && (
+        <>
+          <Typography
+            component="h4"
+            variant="h4"
             sx={{
-              backgroundColor: "#F9F9F9",
-              paddingX: { xs: "10px", md: "20px" },
-              paddingY: { xs: "5px", md: "10px" },
-              borderRadius: "40px",
+              fontSize: "14px",
+              fontFamily: "Inter",
+              fontWeight: "700",
+              color: "rgba(12, 38, 81, 1)",
+              marginBottom: "0.5rem",
+              lineHeight: "100%",
             }}
           >
-            <Typography
-              variant="subtitle1"
-              sx={{
-                fontSize: "10px",
-                fontFamily: "Inter",
-                fontWeight: "350",
-                color: "rgba(30, 30, 30, 1)",
-                whiteSpace: "nowrap",
-              }}
-            >
-              {item}
-            </Typography>
+            {homeScreenData.year4.secondTitle}
+          </Typography>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "flex-start",
+              gap: "0.5rem",
+              flexWrap: "wrap",
+              marginBottom: "20px",
+            }}
+          >
+            {homeScreenData.year4.secondArray.map((item, index) => (
+              <Box
+                key={index}
+                sx={{
+                  backgroundColor: "#F9F9F9",
+                  paddingX: { xs: "10px", md: "20px" },
+                  paddingY: { xs: "5px", md: "10px" },
+                  borderRadius: "40px",
+                }}
+              >
+                <Typography
+                  variant="subtitle1"
+                  sx={{
+                    fontSize: "10px",
+                    fontFamily: "Inter",
+                    fontWeight: "350",
+                    color: "rgba(30, 30, 30, 1)",
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  {item}
+                </Typography>
+              </Box>
+            ))}
           </Box>
-        ))}
-      </Box>
+        </>
+      )}
       <Typography
         component="h4"
         variant="h4"

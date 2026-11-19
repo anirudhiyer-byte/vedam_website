@@ -32,7 +32,6 @@ Vedam is a new age college built to redefine engineering education in India. Unl
 - AI-first curriculum designed with inputs from Microsoft, Amazon, and other MAANG engineers
 - Hands-on projects, paid internships, and real-world product building
 - Selective peer group with only top 5% of applicants admitted
-- Personal MacBook for every student
 - Mentorship from industry leaders and startup founders
 - Preparation for global tech competitions like Google Summer of Code (GSoC), LFX
 - Placements focused on top tech companies, startups, and MAANG roles
