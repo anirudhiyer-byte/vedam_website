@@ -8,39 +8,42 @@ import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRigh
 
 const posterBackground = "#0C092F";
 
-const outcomeSlides = [
+// Unified carousel: plain-image slides plus one clickable video slide.
+// A slide with a `video` field opens the YouTube embed in place when tapped.
+const slides = [
     {
-        desktopSrc: "/img/studentSuccess/global_outcome_homepage.webp",
-        mobileSrc: "/img/studentSuccess/global_outcome_homepage.webp",
-        alt: "Achievements of 1st year students of Vedam school of technology",
-        desktopWidth: 6830,
-        desktopHeight: 2315,
-        mobileWidth: 6830,
-        mobileHeight: 2315,
+        src: "/img/studentSuccess/outcome_home_internships.webp",
+        alt: "Vedam first-year students secured 8+ paid internships",
+        width: 5190,
+        height: 2320,
     },
     {
-        desktopSrc: "/img/studentSuccess/outcome_home_desktop_2_v2.webp",
-        mobileSrc: "/img/studentSuccess/outcome_home_mobile_2_v2.webp",
-        alt: "Achievements of 1st year students of Vedam school of technology",
-        desktopWidth: 4152,
-        desktopHeight: 1856,
-        mobileWidth: 1216,
-        mobileHeight: 1116,
+        src: "/img/studentSuccess/outcome_home_global.webp",
+        alt: "Vedam students cracked global opportunities on LFX and HackerOne",
+        width: 5190,
+        height: 2310,
+    },
+    {
+        src: "/img/studentSuccess/outcome_home_jee.webp",
+        alt: "Students with 96+ JEE percentile have chosen Vedam School of Technology",
+        width: 5190,
+        height: 2305,
+        video: "https://www.youtube.com/embed/XvTqUQL1JIY?autoplay=1&start=1",
+    },
+    {
+        src: "/img/studentSuccess/outcome_home_hackathon.webp",
+        alt: "Vedam students secured 2nd place at Hack with Hyderabad 3.0, Microsoft Campus",
+        width: 5190,
+        height: 2305,
     },
 ];
-
-const videoThumbnail = {
-    desktopSrc: "/img/studentSuccess/outcome_home_desktop_3.webp",
-    mobileSrc: "/img/studentSuccess/outcome_home_mobile_3.webp",
-    alt: "Achievements of 1st year students of Vedam school of technology",
-};
 
 export const StudentsAtVedam = () => {
     const [playVideo, setPlayVideo] = useState(false);
     const [activeSlide, setActiveSlide] = useState(0);
 
-    const videoSlideIndex = outcomeSlides.length;
-    const totalSlides = outcomeSlides.length + 1;
+    const videoSlideIndex = slides.findIndex((slide) => slide.video);
+    const totalSlides = slides.length;
 
     useEffect(() => {
         if (playVideo) {
@@ -98,118 +101,68 @@ export const StudentsAtVedam = () => {
                             transition: "transform 0.45s ease",
                         }}
                     >
-                        {outcomeSlides.map((slide) => (
-                            <Box
-                                key={slide.desktopSrc}
-                                sx={{
-                                    flex: "0 0 100%",
-                                    width: "100%",
-                                }}
-                            >
-                                <Box
-                                    sx={{
-                                        display: { xs: "none", md: "block" },
-                                        width: "100%",
-                                    }}
-                                >
-                                    <Image
-                                        src={slide.desktopSrc}
-                                        alt={slide.alt}
-                                        width={slide.desktopWidth}
-                                        height={slide.desktopHeight}
-                                        style={{ width: "100%", height: "auto", display: "block" }}
-                                    />
-                                </Box>
+                        {slides.map((slide, slideIndex) => {
+                            const isVideoSlide = Boolean(slide.video);
+                            const isPlaying =
+                                isVideoSlide && playVideo && activeSlide === slideIndex;
 
+                            return (
                                 <Box
+                                    key={slide.src}
+                                    onClick={isVideoSlide ? () => setPlayVideo(true) : undefined}
+                                    onKeyDown={
+                                        isVideoSlide
+                                            ? (e) => {
+                                                  if (e.key === "Enter" || e.key === " ") {
+                                                      setPlayVideo(true);
+                                                  }
+                                              }
+                                            : undefined
+                                    }
+                                    role={isVideoSlide ? "button" : undefined}
+                                    tabIndex={isVideoSlide ? 0 : undefined}
+                                    aria-label={
+                                        isVideoSlide ? "Play Students at Vedam video" : undefined
+                                    }
                                     sx={{
-                                        display: { xs: "block", md: "none" },
+                                        flex: "0 0 100%",
                                         width: "100%",
-                                        borderRadius: "16px",
-                                        overflow: "hidden",
-                                    }}
-                                >
-                                    <Image
-                                        src={slide.mobileSrc}
-                                        alt={slide.alt}
-                                        width={slide.mobileWidth}
-                                        height={slide.mobileHeight}
-                                        style={{ width: "100%", height: "auto", display: "block" }}
-                                    />
-                                </Box>
-                            </Box>
-                        ))}
-
-                        <Box
-                            onClick={() => setPlayVideo(true)}
-                            onKeyDown={(e) => {
-                                if (e.key === "Enter" || e.key === " ") {
-                                    setPlayVideo(true);
-                                }
-                            }}
-                            role="button"
-                            tabIndex={0}
-                            aria-label="Play Students at Vedam video"
-                            sx={{
-                                flex: "0 0 100%",
-                                width: "100%",
-                                position: "relative",
-                                cursor: playVideo ? "default" : "pointer",
-                                outline: "none",
-                            }}
-                        >
-                            {playVideo ? (
-                                <Box
-                                    sx={{
-                                        width: "100%",
-                                        height: { xs: "220px", md: "420px" },
                                         position: "relative",
+                                        cursor:
+                                            isVideoSlide && !isPlaying ? "pointer" : "default",
+                                        outline: "none",
                                     }}
                                 >
-                                    <iframe
-                                        width="100%"
-                                        height="100%"
-                                        src="https://www.youtube.com/embed/XvTqUQL1JIY?autoplay=1&start=1"
-                                        title="YouTube video player"
-                                        frameBorder="0"
-                                        allow="autoplay; encrypted-media"
-                                        allowFullScreen
-                                    />
+                                    {isPlaying ? (
+                                        <Box
+                                            sx={{
+                                                width: "100%",
+                                                height: { xs: "220px", md: "420px" },
+                                                position: "relative",
+                                            }}
+                                        >
+                                            <iframe
+                                                width="100%"
+                                                height="100%"
+                                                src={slide.video}
+                                                title="YouTube video player"
+                                                frameBorder="0"
+                                                allow="autoplay; encrypted-media"
+                                                allowFullScreen
+                                            />
+                                        </Box>
+                                    ) : (
+                                        <Image
+                                            src={slide.src}
+                                            alt={slide.alt}
+                                            width={slide.width}
+                                            height={slide.height}
+                                            style={{ width: "100%", height: "auto", display: "block" }}
+                                        />
+                                    )}
                                 </Box>
-                            ) : (
-                                <>
-                                    <Box
-                                        sx={{
-                                            display: { xs: "none", md: "block" },
-                                            width: "100%",
-                                        }}
-                                    >
-                                        <Image
-                                            src={videoThumbnail.desktopSrc}
-                                            alt={videoThumbnail.alt}
-                                            width={3114}
-                                            height={1383}
-                                            style={{ width: "100%", height: "auto", display: "block" }}
-                                        />
-                                    </Box>
-
-                                    <Box
-                                        sx={{
-                                            display: { xs: "block", md: "none" },
-                                            width: "100%",
-                                        }}
-                                    >
-                                        <Image
-                                            src={videoThumbnail.mobileSrc}
-                                            alt={videoThumbnail.alt}
-                                            width={1800}
-                                            height={1674}
-                                            style={{ width: "100%", height: "auto", display: "block" }}
-                                        />
-                                    </Box>
-                                </>
-                            )}
-                        </Box>
+                            );
+                        })}
                     </Box>
                 </Box>
 
