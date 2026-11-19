@@ -5,7 +5,8 @@ import Image from "next/image";
 import { detailsData } from "@/constants/data";
 
 // Desktop placement for the four small cards (2×2 block on the left).
-// The featured card sits in column 3 and spans both rows.
+// The featured card sits in column 3 and spans both rows; the mentor
+// banner sits in row 3 spanning the two small-card columns.
 const smallPos = [
   { gridColumn: "1", gridRow: "1" },
   { gridColumn: "2", gridRow: "1" },
@@ -22,70 +23,61 @@ const WhyVedam = ({ data }) => {
   return (
     <Box
       sx={{
-        // Hold the cards + mentor banner at 80% width (20% smaller), left-aligned.
+        // 80% width (20% smaller), left-aligned under the heading.
         width: { xs: "100%", md: "80%" },
         mr: { md: "auto" },
         alignSelf: "flex-start",
-        display: "flex",
-        flexDirection: "column",
+        display: "grid",
+        gridTemplateColumns: { xs: "1fr", md: "1fr 1fr 1.4fr" },
         gap: "16px",
       }}
     >
-      <Box
-        sx={{
-          display: "grid",
-          gridTemplateColumns: { xs: "1fr", md: "1fr 1fr 1.4fr" },
-          gap: "16px",
-          width: "100%",
-        }}
-      >
-        {gridItems.map((item, index) => (
-          <Box
-            key={`why-${index}`}
-            sx={{
-              position: "relative",
-              width: "100%",
-              aspectRatio: "1160 / 1005",
-              borderRadius: "16px",
-              overflow: "hidden",
-              gridColumn: { md: smallPos[index].gridColumn },
-              gridRow: { md: smallPos[index].gridRow },
-            }}
-          >
-            <Image
-              src={item.img}
-              alt={`${item.title} — ${item.description}`}
-              fill
-              sizes="(max-width: 900px) 100vw, 260px"
-              style={{ objectFit: "cover" }}
-            />
-          </Box>
-        ))}
+      {gridItems.map((item, index) => (
+        <Box
+          key={`why-${index}`}
+          sx={{
+            position: "relative",
+            width: "100%",
+            aspectRatio: "1160 / 1005",
+            borderRadius: "16px",
+            overflow: "hidden",
+            gridColumn: { md: smallPos[index].gridColumn },
+            gridRow: { md: smallPos[index].gridRow },
+          }}
+        >
+          <Image
+            src={item.img}
+            alt={`${item.title} — ${item.description}`}
+            fill
+            sizes="(max-width: 900px) 100vw, 260px"
+            style={{ objectFit: "cover" }}
+          />
+        </Box>
+      ))}
 
-        {featuredItem && (
-          <Box
-            sx={{
-              position: "relative",
-              width: "100%",
-              aspectRatio: { xs: "1660 / 2065", md: "auto" },
-              borderRadius: "16px",
-              overflow: "hidden",
-              gridColumn: { md: "3" },
-              gridRow: { md: "1 / span 2" },
-            }}
-          >
-            <Image
-              src={featuredItem.img}
-              alt={`${featuredItem.title} — ${featuredItem.description}`}
-              fill
-              sizes="(max-width: 900px) 100vw, 400px"
-              style={{ objectFit: "cover" }}
-            />
-          </Box>
-        )}
-      </Box>
+      {featuredItem && (
+        <Box
+          sx={{
+            position: "relative",
+            width: "100%",
+            aspectRatio: { xs: "1660 / 2065", md: "auto" },
+            borderRadius: "16px",
+            overflow: "hidden",
+            gridColumn: { md: "3" },
+            gridRow: { md: "1 / span 2" },
+          }}
+        >
+          <Image
+            src={featuredItem.img}
+            alt={`${featuredItem.title} — ${featuredItem.description}`}
+            fill
+            sizes="(max-width: 900px) 100vw, 400px"
+            style={{ objectFit: "cover" }}
+          />
+        </Box>
+      )}
 
-      {/* Mentor / instructor banner, directly below the cards */}
+      {/* Mentor / instructor banner — spans the two small-card columns, below them */}
       <Box
         sx={{
           position: "relative",
@@ -93,13 +85,15 @@ const WhyVedam = ({ data }) => {
           aspectRatio: "2325 / 1410",
           borderRadius: "16px",
           overflow: "hidden",
+          gridColumn: { xs: "1", md: "1 / 3" },
+          gridRow: { md: "3" },
         }}
       >
         <Image
           src="/img/whyvedam/img1.webp"
           alt="Vedam mentors from Apple, Google, ByteDance and other top tech companies"
           fill
-          sizes="(max-width: 900px) 100vw, 900px"
+          sizes="(max-width: 900px) 100vw, 560px"
           style={{ objectFit: "cover" }}
         />
       </Box>
