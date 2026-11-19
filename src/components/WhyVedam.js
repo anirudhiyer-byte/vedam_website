@@ -22,9 +22,10 @@ const WhyVedam = ({ data }) => {
   return (
     <Box
       sx={{
-        // Hold the cards + mentor banner at 80% width, centred (20% smaller).
+        // Hold the cards + mentor banner at 80% width (20% smaller), left-aligned.
         width: { xs: "100%", md: "80%" },
-        mx: "auto",
+        mr: { md: "auto" },
+        alignSelf: "flex-start",
         display: "flex",
         flexDirection: "column",
         gap: "16px",
